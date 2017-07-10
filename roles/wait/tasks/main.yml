@@ -1,0 +1,5 @@
+---
+- wait_for:
+    timeout: 3600
+  delegate_to: "localhost"
+...
