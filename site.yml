@@ -64,16 +64,24 @@
   tags:
     disablepoolmember
 
-# Confirm connections have been drained
+# Wait for 1 hour
 - hosts: delmembers
   gather_facts: false
-  vars:
-    ansible_user: "{{ f5user }}"
-    ansible_pass: "{{ f5password }}"
   roles:
-    - validate-drained
+    - wait
   tags:
-    drain
+    wait
+
+# Confirm connections have been drained
+#- hosts: delmembers
+#  gather_facts: false
+#  vars:
+#    ansible_user: "{{ f5user }}"
+#    ansible_pass: "{{ f5password }}"
+#  roles:
+#    - validate-drained
+#  tags:
+#    drain
 
 # Remove old members from the pool
 - hosts: delmembers
