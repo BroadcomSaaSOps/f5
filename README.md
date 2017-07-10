@@ -42,7 +42,9 @@ US5NPAPP298    10.47.33.206      10.47.35.195      10.47.13.173
 US5NPAPP299    10.47.33.207      10.47.35.196      10.47.13.174
 ```
 2. Prerequisite packages
+```
   ansible-latest (2.2 minimum)
   easy_install pip
   pip install bigsuds
   passlib (for encrypting user input credentials - untested/TODO)
+```
