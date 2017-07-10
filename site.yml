@@ -1,0 +1,102 @@
+---
+# Grab user F5 credentials
+- hosts: all
+  gather_facts: false
+  roles:
+    - prep
+  vars_prompt:
+    - name: "f5user"
+      prompt: "Enter your F5 username"
+      private: no
+    - name: "f5password"
+      prompt: "Enter your F5 password"
+      private: yes
+#      confirm: yes
+#      encrypt: "sha512_crypt"
+  tags:
+    always
+
+# Add nodes to the F5 in a disabled state
+- hosts: addmembers
+  gather_facts: false
+  roles:
+    - f5-node-add
+  vars:
+    f5state: present
+    f5session_state: disabled
+    f5monitor_state: enabled
+  tags:
+    addnodedisabled
+
+# Add nodes to the F5
+- hosts: addmembers
+  gather_facts: false
+  roles:
+    - f5-node-add
+  vars:
+    f5state: present
+    f5session_state: enabled
+    f5monitor_state: enabled
+  tags:
+    addnode
+
+# Add node members to a pool
+- hosts: addmembers
+  gather_facts: false
+  roles:
+    - f5-pool-member
+  vars:
+    f5state: present
+    f5session_state: enabled
+    f5monitor_state: enabled
+  tags:
+    addpoolmember
+
+# Disable old members before removing them from the pool
+- hosts: delmembers
+  gather_facts: false
+  vars:
+    f5state: present
+    f5session_state: disabled
+    f5monitor_state: disabled
+  roles:
+    - f5-pool-member
+  tags:
+    disablepoolmember
+
+# Confirm connections have been drained
+- hosts: delmembers
+  gather_facts: false
+  vars:
+    ansible_user: "{{ f5user }}"
+    ansible_pass: "{{ f5password }}"
+  roles:
+    - validate-drained
+  tags:
+    drain
+
+# Remove old members from the pool
+- hosts: delmembers
+  gather_facts: false
+  vars:
+    f5state: absent
+    f5session_state: disabled
+    f5monitor_state: disabled
+  roles:
+    - f5-pool-member
+  tags:
+    delpoolmember
+
+# Add nodes to the F5
+- hosts: delmembers
+  gather_facts: false
+  roles:
+    - f5-node-del
+  vars:
+    f5state: absent
+    f5session_state: disabled
+    f5monitor_state: disabled
+  tags:
+    delnode
+
+...

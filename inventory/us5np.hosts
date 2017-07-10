@@ -1,0 +1,14 @@
+[us5np:children]
+addmembers
+delmembers
+
+[addmembers]
+us5npapp298 f5pool=mktest f5port=8081 f5ip=10.47.35.195
+us5npapp299 f5pool=mktest f5port=8081 f5ip=10.47.35.196
+#mktestnode1 f5pool=mktest f5port=14001 f5ip=192.168.200.1
+#mktestnode2 f5pool=mktest f5port=14001 f5ip=192.168.200.2
+
+[delmembers]
+us5npapp299 f5pool=mktest f5port=8081 f5ip=10.47.35.196
+#mktestnode1 f5pool=mktest f5port=14001 f5ip=192.168.200.1
+#mktestnode2 f5pool=mktest f5port=14001 f5ip=192.168.200.2

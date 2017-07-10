@@ -1,0 +1,6 @@
+---
+- set_fact:
+    f5user: "{{ f5user }}"
+    f5password: "{{ f5password }}"
+  run_once: true
+...

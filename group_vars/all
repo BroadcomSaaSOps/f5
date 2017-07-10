@@ -1,0 +1,14 @@
+---
+f5server: 'f5server'
+f5user: 'f5serviceaccountname'
+f5password: 'f5serviceaccountpassword'
+f5description: 'Modified by Ansible'
+f5pool: 'f5poolname'
+f5port: '80'
+f5connection_limit: '0'
+f5rate_limit: '0'
+f5ratio: '1'
+f5state: 'present'
+f5session_state: 'enabled'
+f5monitor_state: 'enabled'
+...
