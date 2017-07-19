@@ -19,8 +19,8 @@ Automation for the F5 includes the following steps:
    ssh us5nprepo01
 2. ssh /root/mktest
 3. ansible-playbook -i inventory/us5np.hosts site.yml --tags=""
-   where tags are one of the following
 ```
+   where tags are one of the following:
    addnodedisabled
    addnode
    addpoolmember
