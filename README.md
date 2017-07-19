@@ -20,6 +20,7 @@ Automation for the F5 includes the following steps:
 2. ssh /root/mktest
 3. ansible-playbook -i inventory/us5np.hosts site.yml --tags=""
    where tags are one of the following
+```
    addnodedisabled
    addnode
    addpoolmember
@@ -27,6 +28,7 @@ Automation for the F5 includes the following steps:
    wait
    delpoolmember
    delnode
+```
 
 ### Jenkins
 (TODO) This playbook can be frontended in [Jenkins](http://canpjen02.ca.com/jenkins/#TODO)
