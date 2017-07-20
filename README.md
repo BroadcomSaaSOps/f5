@@ -29,6 +29,7 @@ Automation for the F5 includes the following steps:
    delpoolmember
    delnode
 ```
+A demonstration can be downloaded [here](https://catechnologies.webex.com/svc3200/svccomponents/servicerecordings/servicerecordinginfo.do?RCID=4d83c33a884d4cfca4ccb337d9a3d687&siteurl=catechnologies&apiname=viewrd.php&needFilter=false&rnd=3566110348&isurlact=true&entactname=%2FnbrRedirect.do&entappname=url3200&renewticket=0&serviceType=mc&targetAction=%2Fsvccomponents%2Fservicerecordings%2Fservicerecordinginfo.do&mywbxLink=yes&rID=105931402&recordID=105931402&targetApp=svc3200&action=info&SP=MC&fromUrlApi=1)
 
 ### Jenkins
 (TODO) This playbook can be frontended in [Jenkins](http://canpjen02.ca.com/jenkins/#TODO)
@@ -44,8 +45,8 @@ The following features are on the radar and may be added in the future:
 2. Proper connection draining check via API and/or wait_for module
 3. Encrypt user input credentials (not stored to fs, but are plaintext in memory)
 
-### Pitfalls and manual steps
-N/A
+### GOTCHAS
+1. When removing a node from a pool, the node will also be removed from the F5. This is okay for this current migration maintenance, but could be dangerous in the future. This is a limitation of the F5 API and not something I can fix.
 
 ### Other Notes
 1. These two VMs are ready for testing in US5NP.
