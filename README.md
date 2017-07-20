@@ -2,7 +2,7 @@
 
 ### Purpose
 This playbook automates the addition and removal of pool members in the F5, for
-the purposes of RHEL5->RHEL6 migrations. This will likely be enhanced for more later.
+the purposes of RHEL5->RHEL6 migrations. This can be enhanced with more functionality later.
 
 ### Overview
 Automation for the F5 includes the following steps:
@@ -50,8 +50,11 @@ N/A
 ### Other Notes
 1. These two VMs are ready for testing in US5NP.
 ```
+Hostname       PUB IP            MGMT IP           STG IP
 US5NPAPP298    10.47.33.206      10.47.35.195      10.47.13.173
 US5NPAPP299    10.47.33.207      10.47.35.196      10.47.13.174
+us5npapp307    10.47.33.187      10.47.35.187      10.47.13.194
+us5npapp308    10.47.33.188      10.47.35.188      10.47.13.195
 ```
 2. Prerequisite packages
 ```
