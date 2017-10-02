@@ -27,7 +27,15 @@ Automation for the F5 includes the following steps:
    disablepoolmember
    wait
    delpoolmember
-   delnode
+```
+example:
+```
+(all in one)
+ansible-playbook -i inventory/us5np.hosts site.yml --tags="addnode,addpoolmember,disablepoolmember,wait,delpoolmember"
+-or-
+(split across 2 times)
+ansible-playbook -i inventory/us5np.hosts site.yml --tags="addnode,addpoolmember,disablepoolmember"
+ansible-playbook -i inventory/us5np.hosts site.yml --tags="delpoolmember"
 ```
 A demonstration can be downloaded [here](https://catechnologies.webex.com/svc3200/svccomponents/servicerecordings/servicerecordinginfo.do?RCID=4d83c33a884d4cfca4ccb337d9a3d687&siteurl=catechnologies&apiname=viewrd.php&needFilter=false&rnd=3566110348&isurlact=true&entactname=%2FnbrRedirect.do&entappname=url3200&renewticket=0&serviceType=mc&targetAction=%2Fsvccomponents%2Fservicerecordings%2Fservicerecordinginfo.do&mywbxLink=yes&rID=105931402&recordID=105931402&targetApp=svc3200&action=info&SP=MC&fromUrlApi=1)
 
@@ -39,17 +47,11 @@ A demonstration can be downloaded [here](https://catechnologies.webex.com/svc320
 3. Click "build" to start
 ```
 
-### TODO
-The following features are on the radar and may be added in the future:
-1. Jenkins frontend
-2. Proper connection draining check via API and/or wait_for module
-3. Encrypt user input credentials (not stored to fs, but are plaintext in memory)
-
 ### GOTCHAS
 1. When removing a node from a pool, the node will also be removed from the F5. This is okay for this current migration maintenance, but could be dangerous in the future. This is a limitation of the F5 API and not something I can fix.
 
 ### Other Notes
-1. These two VMs are ready for testing in US5NP.
+1. These two VMs are available for testing in US5NP.
 ```
 Hostname       PUB IP            MGMT IP           STG IP
 US5NPAPP298    10.47.33.206      10.47.35.195      10.47.13.173
@@ -64,3 +66,9 @@ us5npapp308    10.47.33.188      10.47.35.188      10.47.13.195
   pip install bigsuds
   passlib (for encrypting user input credentials - untested/TODO)
 ```
+
+### TODO
+The following features are on the radar and may be added in the future:
+1. Jenkins frontend
+2. Proper connection draining check via API and/or wait_for module
+3. Encrypt user input credentials (not stored to fs, but are plaintext in memory)
