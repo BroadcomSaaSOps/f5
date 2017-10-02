@@ -1,5 +1,6 @@
 ---
-- set_fact:
+- name: Store credentials for duration of playbook execution
+  set_fact:
     f5_user: "{{ f5_user }}"
     f5_password: "{{ f5_password }}"
   run_once: true
