@@ -1,8 +1,8 @@
 ---
-- wait_for: host={{ f5_ip }} port={{ f5_port }} timeout=1800 state=drained
-  delegate_to: "{{ f5_ip }}"
+- wait_for: host={{ f5_node_ip }} port={{ f5_node_port }} timeout=1800 state=drained
+  delegate_to: "{{ f5_node_ip }}"
     #host: "{{ inventory_hostname }}"
-    #port: "{{ f5_port }}"
+    #port: "{{ f5_node_port }}"
     #state: drained
 - meta: clear_host_errors
 ...

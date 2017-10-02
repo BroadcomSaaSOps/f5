@@ -1,9 +1,9 @@
 ---
 # Get F5 credentials from user
-- hosts: all
+- hosts: us5,sc5,au1,mun
   gather_facts: false
   roles:
-    - f5-get-credentials 
+    - f5-get-credentials
   vars_prompt:
     - name: "f5_user"
       prompt: "Enter your F5 username"
@@ -22,9 +22,9 @@
   roles:
     - f5-node-add
   vars:
-    f5state: present
-    f5session_state: disabled
-    f5monitor_state: enabled
+    f5_node_state: present
+    f5_node_session_state: disabled
+    f5_node_monitor_state: enabled
   tags:
     addnodedisabled
 
@@ -34,9 +34,9 @@
   roles:
     - f5-node-add
   vars:
-    f5state: present
-    f5session_state: enabled
-    f5monitor_state: enabled
+    f5_node_state: present
+    f5_node_session_state: enabled
+    f5_node_monitor_state: enabled
   tags:
     addnode
 
@@ -44,11 +44,11 @@
 - hosts: addmembers
   gather_facts: false
   roles:
-    - f5-pool-member
+    - f5-pool-member-add
   vars:
-    f5state: present
-    f5session_state: enabled
-    f5monitor_state: enabled
+    f5_node_state: present
+    f5_node_session_state: enabled
+    f5_node_monitor_state: enabled
   tags:
     addpoolmember
 
@@ -56,9 +56,9 @@
 - hosts: delmembers
   gather_facts: false
   vars:
-    f5state: present
-    f5session_state: disabled
-    f5monitor_state: disabled
+    f5_node_state: present
+    f5_node_session_state: disabled
+    f5_node_monitor_state: disabled
   roles:
     - f5-pool-member
   tags:
@@ -81,29 +81,29 @@
 #  roles:
 #    - f5-validate-drained
 #  tags:
-#    drain
+#    f5_drain
 
 # Remove old members from the pool
 - hosts: delmembers
   gather_facts: false
   vars:
-    f5_state: absent
-    f5_session_state: disabled
-    f5_monitor_state: disabled
+    f5_node_state: absent
+    f5_node_session_state: disabled
+    f5_node_monitor_state: disabled
   roles:
     - f5-pool-member
   tags:
     delpoolmember
 
-# Add nodes to the F5
+# Delete old members from the F5
 - hosts: delmembers
   gather_facts: false
   roles:
     - f5-node-del
   vars:
-    f5_state: absent
-    f5_session_state: disabled
-    f5_monitor_state: disabled
+    f5_node_state: absent
+    f5_node_session_state: disabled
+    f5_node_monitor_state: disabled
   tags:
     delnode
 ...

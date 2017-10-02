@@ -1,14 +1,14 @@
 ---
-- name: Add node to f5_
+- name: Add node to F5
   bigip_node:
     server: "{{ f5_hostname }}"
     user: "{{ f5_user }}"
     password: "{{ f5_password }}"
-    validate_certs: "no"
-    state: "{{ f5_state }}"
-    session_state: "{{ f5_session_state }}"
-    monitor_state: "{{ f5_monitor_state }}"
-    host: "{{ f5_ip }}"
+    validate_certs: "{{ f5_validate_certs }}"
+    state: "{{ f5_node_state }}"
+    session_state: "{{ f5_node_session_state }}"
+    monitor_state: "{{ f5_node_monitor_state }}"
+    host: "{{ f5_node_ip }}"
     name: "{{ inventory_hostname }}"
     description: "{{ f5_description }"
   delegate_to: localhost

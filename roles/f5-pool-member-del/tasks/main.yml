@@ -1,5 +1,5 @@
 ---
-- name: Add/Modify/Remove pool member
+- name: Remove pool member
   bigip_pool_member:
     server: "{{ f5_hostname }}"
     user: "{{ f5_user }}"
@@ -12,8 +12,5 @@
     host: "{{ inventory_hostname }}"
     port: "{{ f5_port }}"
     description: "{{ f5_description }}"
-#    connection_limit: "{{ f5_connection_limit }}"
-#    rate_limit: "{{ f5_rate_limit }}"
-#    ratio: "{{ f5_ratio }}"
   delegate_to: localhost
 ...

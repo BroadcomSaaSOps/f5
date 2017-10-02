@@ -1,5 +1,6 @@
 ---
-- wait_for:
+- name: Wait for 1 hour
+  wait_for:
     timeout: 3600
   delegate_to: "localhost"
 ...

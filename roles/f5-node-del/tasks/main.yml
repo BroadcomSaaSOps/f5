@@ -1,11 +1,11 @@
 ---
-- name: Remove node from f5_
+- name: Remove node from F5
   bigip_node:
     server: "{{ f5_hostname }}"
     user: "{{ f5_user }}"
     password: "{{ f5_password }}"
-    validate_certs: "no"
-    state: "absent"
+    validate_certs: "{{ f5_validate_certs }}"
+    state: "{{ f5_node_state }}"
     name: "{{ inventory_hostname }}"
   delegate_to: localhost
 ...

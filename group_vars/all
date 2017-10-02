@@ -1,15 +1,20 @@
 ---
+# Variables for the F5
 f5_hostname: 'f5hostname'
+f5_server_port: '443'
+f5_validate_certs: 'no'
 f5_user: 'f5serviceaccountname'
 f5_password: 'f5serviceaccountpassword'
 f5_description: 'Modified by Ansible'
-f5_pool_name: 'f5poolname'
-f5_pool_port: '80'
-f5_pool_ip: '127.0.0.1'
-f5_connection_limit: '0'
-f5_rate_limit: '0'
-f5_ratio: '1'
-f5_state: 'present'
-f5_session_state: 'enabled'
-f5_monitor_state: 'enabled'
+
+# Variables for nodes
+f5_node_port: '80'
+f5_node_ip: '127.0.0.1'
+f5_node_connection_limit: '0'
+f5_node_rate_limit: '0'
+f5_node_ratio: '1'
+f5_node_state: 'present'
+f5_node_session_state: 'enabled'
+f5_node_monitor_state: 'enabled'
+f5_node_pool: 'f5poolname'
 ...
