@@ -28,7 +28,7 @@
   tags:
     addnodedisabled
 
-# Add nodes to the F5
+# Add nodes to the F5 in an enabled state
 - hosts: addmembers
   gather_facts: false
   roles:
