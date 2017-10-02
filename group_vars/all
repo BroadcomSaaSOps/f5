@@ -17,4 +17,7 @@ f5_node_state: 'present'
 f5_node_session_state: 'enabled'
 f5_node_monitor_state: 'enabled'
 f5_node_pool: 'f5poolname'
+
+# Other
+f5_wait_timeout: '3600'
 ...
