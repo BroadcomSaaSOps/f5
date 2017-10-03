@@ -21,15 +21,15 @@ Automation for the F5 includes the following steps:
    ssh demunopsansi01
    ssh au1opsansi01
 2. cd /path/to/ansible/f5
-3. ansible-playbook -i inventory/<env>.hosts site.yml --tags="<tags>"
+3. ansible-playbook -i inventory/[env].hosts site.yml --tags="[tags]"
 ```
-   where <env> is one of the following:
+   where [env] is one of the following:
    us5
    sc5
    au1
    mun
 
-   where tags are one or more of the following (comma separated):
+   where [tags] is one or more of the following (comma separated):
    addnodedisabled
    addnode
    addpoolmember
