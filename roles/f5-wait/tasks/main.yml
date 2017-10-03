@@ -1,5 +1,5 @@
 ---
-- name: Wait for connections to drain
+- name: Wait {{ f5_wait_timeout }} seconds for connections to drain
   wait_for:
     timeout: "{{ f5_wait_timeout }}"
   delegate_to: "localhost"
