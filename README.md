@@ -72,3 +72,4 @@ The following features are on the radar and may be added in the future:
 1. Jenkins frontend
 2. Proper connection draining check via API and/or wait_for module
 3. Encrypt user input credentials (not stored to fs, but are plaintext in memory)
+4. easy_install --user bigsuds

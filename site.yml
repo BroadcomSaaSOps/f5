@@ -60,7 +60,7 @@
     f5_node_session_state: disabled
     f5_node_monitor_state: disabled
   roles:
-    - f5-pool-member
+    - f5-pool-member-del
   tags:
     disablepoolmember
 
@@ -91,7 +91,7 @@
     f5_node_session_state: disabled
     f5_node_monitor_state: disabled
   roles:
-    - f5-pool-member
+    - f5-pool-member-del
   tags:
     delpoolmember
 

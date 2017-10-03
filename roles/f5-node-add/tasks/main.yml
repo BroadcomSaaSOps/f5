@@ -10,6 +10,6 @@
     monitor_state: "{{ f5_node_monitor_state }}"
     host: "{{ f5_node_ip }}"
     name: "{{ inventory_hostname }}"
-    description: "{{ f5_description }"
+    description: "{{ f5_description }}"
   delegate_to: localhost
 ...
