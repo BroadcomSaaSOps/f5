@@ -15,18 +15,29 @@ Automation for the F5 includes the following steps:
 7. Delete old node
 
 ### Usage
-1. RDP and/or SSH into the respective environment's ansible machine
-   ssh us5nprepo01
-2. ssh /root/mktest
-3. ansible-playbook -i inventory/us5np.hosts site.yml --tags=""
+1. RDP and/or SSH into the respective environment's ansible machine:
+   ssh us5npopsansi01
+   ssh sc5opsansi01
+   ssh demunopsansi01
+   ssh au1opsansi01
+2. cd /path/to/ansible/f5
+3. ansible-playbook -i inventory/<env>.hosts site.yml --tags="<tags>"
 ```
-   where tags are one of the following:
+   where <env> is one of the following:
+   us5
+   sc5
+   au1
+   mun
+
+   where tags are one or more of the following (comma separated):
    addnodedisabled
    addnode
    addpoolmember
    disablepoolmember
    wait
    delpoolmember
+   delnode (redundant if delpoolmember is used)
+   
 ```
 example:
 ```
@@ -48,10 +59,12 @@ A demonstration can be downloaded [here](https://catechnologies.webex.com/svc320
 ```
 
 ### GOTCHAS
-1. When removing a node from a pool, the node will also be removed from the F5. This is okay for this current migration maintenance, but could be dangerous in the future. This is a limitation of the F5 API and not something I can fix.
+1. When removing a node from a pool, the node will also be removed from the F5. This is okay for this current migration maintenance, but could be dangerous in the future. This is a limitation of the F5 API and not something I can fix. The tag "delpoolmember" does exactly this. BE CAREFUL.
+2. User F5 credentials are stored in memory as plain-text for the duration of the playbook execution. I tested Ansible's ability to hash+salt the password, which worked, but the F5 modules do not provide a method of decrypting them after that, so authentication fails. We will want to keep an eye on this Ansible module for that feature, should it be added.
+
 
 ### Other Notes
-1. These two VMs are available for testing in US5NP.
+1. These VMs are available for testing in US5NP.
 ```
 Hostname       PUB IP            MGMT IP           STG IP
 US5NPAPP298    10.47.33.206      10.47.35.195      10.47.13.173
@@ -64,12 +77,11 @@ us5npapp308    10.47.33.188      10.47.35.188      10.47.13.195
   ansible-latest (2.2 minimum)
   easy_install pip
   pip install bigsuds
-  passlib (for encrypting user input credentials - untested/TODO)
 ```
 
 ### TODO
 The following features are on the radar and may be added in the future:
-1. Jenkins frontend
+1. Jenkins/Tower frontend
 2. Proper connection draining check via API and/or wait_for module
 3. Encrypt user input credentials (not stored to fs, but are plaintext in memory)
-4. easy_install --user bigsuds
+4. "easy_install --user bigsuds" or similar fix for the fact that only root may access the bigsuds library.
