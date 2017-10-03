@@ -17,4 +17,5 @@ Thumbs.db
 # Ansible retry files
 retry.*
 ansible.log
-log/
+log/*
+log/.*
