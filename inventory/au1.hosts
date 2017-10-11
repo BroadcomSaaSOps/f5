@@ -1,0 +1,70 @@
+[au1:children]
+addmembers
+delmembers
+
+[addmembers]
+#AU1APP352 f5_node_pool=CPPM????????? f5_node_port=14001 f5_node_ip=10.11.33.208
+AU1APP353 f5_node_pool=CPPM1042_PROD_V f5_node_port=14001 f5_node_ip=10.11.33.209
+AU1APP354 f5_node_pool=CPPM1042_PROD_V f5_node_port=14001 f5_node_ip=10.11.33.210
+AU1APP355 f5_node_pool=CPPM1059_DEV_V  f5_node_port=14001 f5_node_ip=10.11.33.211
+AU1APP357 f5_node_pool=CPPM6005_PROD_V f5_node_port=14001 f5_node_ip=10.11.33.212
+AU1APP358 f5_node_pool=CPPM6005_PROD_V f5_node_port=14001 f5_node_ip=10.11.33.213
+AU1APP359 f5_node_pool=CPPM6005_TEST_V f5_node_port=14001 f5_node_ip=10.11.33.214
+AU1APP360 f5_node_pool=CPPM6101_PROD_V f5_node_port=14001 f5_node_ip=10.11.33.215
+AU1APP361 f5_node_pool=CPPM6101_PROD_V f5_node_port=14001 f5_node_ip=10.11.33.216
+AU1APP362 f5_node_pool=CPPM6103_DEV_V  f5_node_port=14001 f5_node_ip=10.11.33.217
+AU1APP363 f5_node_pool=CPPM6103_PROD_V f5_node_port=14001 f5_node_ip=10.11.33.218
+AU1APP364 f5_node_pool=CPPM6103_PROD_V f5_node_port=14001 f5_node_ip=10.11.33.219
+AU1APP365 f5_node_pool=CPPM7040_TEST_V f5_node_port=14001 f5_node_ip=10.11.33.220
+AU1APP366 f5_node_pool=CPPM1031_PROD_V f5_node_port=8081 f5_node_ip=10.11.33.222
+AU1APP367 f5_node_pool=CPPM1031_PROD_V f5_node_port=8081 f5_node_ip=10.11.33.223
+AU1APP368 f5_node_pool=CPPM6002_DEV_V  f5_node_port=8081 f5_node_ip=10.11.33.224
+AU1APP370 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.33.225
+AU1APP371 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.33.226
+AU1APP372 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.33.227
+AU1APP372 f5_node_pool=CPPM6002_PROD_V f5_node_port=8082 f5_node_ip=10.11.33.228
+AU1APP373 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.13
+AU1APP373 f5_node_pool=CPPM6002_PROD_V f5_node_port=8082 f5_node_ip=10.11.32.14
+AU1APP374 f5_node_pool=CPPM6002_TEST_V f5_node_port=8081 f5_node_ip=10.11.32.15
+AU1APP375 f5_node_pool=CPPM6100_DEV_V  f5_node_port=8081 f5_node_ip=10.11.32.19
+AU1APP376 f5_node_pool=CPPM6100_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.22
+AU1APP377 f5_node_pool=CPPM6100_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.23
+AU1APP378 f5_node_pool=CPPM6100_TEST_V f5_node_port=8081 f5_node_ip=10.11.32.24
+AU1APP379 f5_node_pool=CPPM6104_DEV_V  f5_node_port=8081 f5_node_ip=10.11.32.25
+AU1APP380 f5_node_pool=CPPM6110_DEV_V  f5_node_port=8081 f5_node_ip=10.11.32.26
+AU1APP381 f5_node_pool=CPPM6110_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.38
+AU1APP382 f5_node_pool=CPPM6110_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.39
+AU1APP383 f5_node_pool=CPPM6110_TEST_V f5_node_port=8081 f5_node_ip=10.11.32.41
+
+[delmembers]
+AU1APP147 f5_node_pool=CPPM1042_PROD_V f5_node_port=14001 f5_node_ip=
+AU1APP148 f5_node_pool=CPPM1042_PROD_V f5_node_port=14001 f5_node_ip=
+AU1APP111 f5_node_pool=CPPM1059_DEV_V  f5_node_port=14001 f5_node_ip=
+AU1APP020 f5_node_pool=CPPM6005_PROD_V f5_node_port=14001 f5_node_ip=
+AU1APP021 f5_node_pool=CPPM6005_PROD_V f5_node_port=14001 f5_node_ip=
+AU1APP023 f5_node_pool=CPPM6005_TEST_V f5_node_port=14001 f5_node_ip=
+AU1APP034 f5_node_pool=CPPM6101_PROD_V f5_node_port=14001 f5_node_ip=
+AU1APP035 f5_node_pool=CPPM6101_PROD_V f5_node_port=14001 f5_node_ip=
+AU1APP095 f5_node_pool=CPPM6103_DEV_V  f5_node_port=14001 f5_node_ip=
+AU1APP096 f5_node_pool=CPPM6103_PROD_V f5_node_port=14001 f5_node_ip=
+AU1APP097 f5_node_pool=CPPM6103_PROD_V f5_node_port=14001 f5_node_ip=
+AU1APP136 f5_node_pool=CPPM7040_TEST_V f5_node_port=14001 f5_node_ip=
+AU1APP140 f5_node_pool=CPPM1031_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP141 f5_node_pool=CPPM1031_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP007 f5_node_pool=CPPM6002_DEV_V  f5_node_port=8081 f5_node_ip=
+AU1APP009 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP010 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP011 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP011 f5_node_pool=CPPM6002_PROD_V f5_node_port=8082 f5_node_ip=
+AU1APP012 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP012 f5_node_pool=CPPM6002_PROD_V f5_node_port=8082 f5_node_ip=
+AU1APP013 f5_node_pool=CPPM6002_TEST_V f5_node_port=8081 f5_node_ip=
+AU1APP048 f5_node_pool=CPPM6100_DEV_V  f5_node_port=8081 f5_node_ip=
+AU1APP051 f5_node_pool=CPPM6100_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP052 f5_node_pool=CPPM6100_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP049 f5_node_pool=CPPM6100_TEST_V f5_node_port=8081 f5_node_ip=
+AU1APP053 f5_node_pool=CPPM6104_DEV_V  f5_node_port=8081 f5_node_ip=
+AU1APP098 f5_node_pool=CPPM6110_DEV_V  f5_node_port=8081 f5_node_ip=
+AU1APP100 f5_node_pool=CPPM6110_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP101 f5_node_pool=CPPM6110_PROD_V f5_node_port=8081 f5_node_ip=
+AU1APP099 f5_node_pool=CPPM6110_TEST_V f5_node_port=8081 f5_node_ip=
