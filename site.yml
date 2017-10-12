@@ -1,4 +1,12 @@
 ---
+# Ensure prerequisites are met to run
+- hosts: us5,sc5,au1,mun
+  gather_facts: false
+  roles:
+    - f5-bootstrap
+  tags:
+    bootstrap
+
 # Get F5 credentials from user
 - hosts: us5,sc5,au1,mun
   gather_facts: false
