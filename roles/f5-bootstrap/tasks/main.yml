@@ -1,0 +1,20 @@
+---
+- name: Ensure permissions are world readable for Python prerequisites
+  file:
+    path: /usr/lib/python2.7/site-packages
+    mode: o+rX
+    recurse: yes
+  delegate_to: localhost
+
+- name: easy_install pip
+  command: umask 0022 && easy_install pip
+  delegate_to: localhost
+
+- name: pip install --upgrade setuptools
+  command: pip install --upgrade setuptools
+  delegate_to: localhost
+
+- name: pip install bigsuds
+  command: pip install bigsuds
+  delegate_to: localhost
+...
