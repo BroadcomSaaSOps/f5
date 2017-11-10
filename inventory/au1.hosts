@@ -3,6 +3,37 @@ addmembers
 delmembers
 
 [delmembers]
+AU1APP147 f5_node_pool=PM1042_PROD_V f5_node_port=14001 f5_node_ip=10.11.32.239
+AU1APP148 f5_node_pool=PM1042_PROD_V f5_node_port=14001 f5_node_ip=10.11.32.240
+AU1APP111 f5_node_pool=PM1059_DEV_V f5_node_port=14001 f5_node_ip=10.11.32.219
+AU1APP020 f5_node_pool=PM6005_PROD_V f5_node_port=14001 f5_node_ip=10.11.32.44
+AU1APP021 f5_node_pool=PM6005_PROD_V f5_node_port=14001 f5_node_ip=10.11.32.45
+AU1APP023 f5_node_pool=PM6005_TEST_V f5_node_port=14001 f5_node_ip=10.11.32.47
+AU1APP034 f5_node_pool=PM6101_PROD_V f5_node_port=14001 f5_node_ip=10.11.32.89
+AU1APP035 f5_node_pool=PM6101_PROD_V f5_node_port=14001 f5_node_ip=10.11.32.90
+AU1APP095 f5_node_pool=PM6103_DEV_V f5_node_port=14001 f5_node_ip=10.11.32.28
+AU1APP096 f5_node_pool=PM6103_PROD_V f5_node_port=14001 f5_node_ip=10.11.32.29
+AU1APP097 f5_node_pool=PM6103_PROD_V f5_node_port=14001 f5_node_ip=10.11.32.82
+AU1APP136 f5_node_pool=PM7040_TEST_V f5_node_port=14001 f5_node_ip=10.11.32.176
+AU1APP140 f5_node_pool=PM1031_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.202
+AU1APP141 f5_node_pool=PM1031_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.203
+AU1APP007 f5_node_pool=PM6002_DEV_V f5_node_port=8081 f5_node_ip=10.11.32.31
+AU1APP009 f5_node_pool=PM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.33
+AU1APP010 f5_node_pool=PM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.34
+AU1APP011 f5_node_pool=PM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.35
+AU1APP011 f5_node_pool=PM6002_PROD_V f5_node_port=8082 f5_node_ip=10.11.32.35
+AU1APP012 f5_node_pool=PM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.36
+AU1APP012 f5_node_pool=PM6002_PROD_V f5_node_port=8082 f5_node_ip=10.11.32.36
+AU1APP013 f5_node_pool=PM6002_TEST_V f5_node_port=8081 f5_node_ip=10.11.32.37
+AU1APP048 f5_node_pool=PM6100_DEV_V f5_node_port=8081 f5_node_ip=10.11.32.55
+AU1APP051 f5_node_pool=PM6100_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.58
+AU1APP052 f5_node_pool=PM6100_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.59
+AU1APP049 f5_node_pool=PM6100_TEST_V f5_node_port=8081 f5_node_ip=10.11.32.56
+AU1APP053 f5_node_pool=PM6104_DEV_V f5_node_port=8081 f5_node_ip=10.11.32.48
+AU1APP098 f5_node_pool=PM6110_DEV_V f5_node_port=8081 f5_node_ip=10.11.32.236
+AU1APP100 f5_node_pool=PM6110_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.208
+AU1APP101 f5_node_pool=PM6110_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.209
+AU1APP099 f5_node_pool=PM6110_TEST_V f5_node_port=8081 f5_node_ip=10.11.32.207
 
 [addmembers]
 AU1APP353 f5_node_pool=CPPM1042_PROD_V f5_node_port=14001 f5_node_ip=10.11.33.209
