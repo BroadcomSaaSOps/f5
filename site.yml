@@ -9,21 +9,22 @@
   become: true
 
 # Get F5 credentials from user
-- hosts: us5,sc5,au1,mun
-  gather_facts: false
-  roles:
-    - f5-get-credentials
-  vars_prompt:
-    - name: "f5_user"
-      prompt: "Enter your F5 username"
-      private: no
-    - name: "f5_password"
-      prompt: "Enter your F5 password"
-      private: yes
-#      confirm: yes
+#- hosts: us5,sc5,au1,mun
+#  gather_facts: false
+#  roles:
+#    - f5-get-credentials
+#  vars_prompt:
+#    - name: "f5_user"
+#      prompt: "Enter your F5 username"
+#      private: no
+#    - name: "f5_password"
+#      prompt: "Enter your F5 password"
+#      private: yes
+##      confirm: yes
 #      encrypt: "sha512_crypt"
-  tags:
-    always
+#  tags:
+#    always
+#    getcredentials
 
 # Add nodes to the F5 in a disabled state
 - hosts: addmembers
