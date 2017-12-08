@@ -1,0 +1,41 @@
+[mun:children]
+delmembers
+addmembers
+
+[delmembers]
+DEMUNAPP472 f5_node_pool=CPPM3022_TEST_V f5_node_port=14001 f5_node_ip=10.1.106.169
+DEMUNAPP471 f5_node_pool=CPPM3031_TEST_V f5_node_port=14001 f5_node_ip=10.1.106.168
+DEMUNAPP559 f5_node_pool=CPPM3038_PROD_V f5_node_port=14001 f5_node_ip=10.1.107.17
+DEMUNAPP560 f5_node_pool=CPPM3038_PROD_V f5_node_port=14001 f5_node_ip=10.1.107.18
+DEMUNAPP567 f5_node_pool=CPPM3039_DEV_V f5_node_port=14001 f5_node_ip=10.1.107.25
+DEMUNAPP693 f5_node_pool=CPPM3053_DEV_V f5_node_port=14001 f5_node_ip=10.1.107.228
+DEMUNAPP695 f5_node_pool=CPPM3053_PROD_V f5_node_port=14001 f5_node_ip=10.1.107.230
+DEMUNAPP696 f5_node_pool=CPPM3053_PROD_V f5_node_port=14001 f5_node_ip=10.1.107.231
+DEMUNAPP642 f5_node_pool=CPPM3054_DEV_V f5_node_port=14001 f5_node_ip=10.1.107.154
+DEMUNAPP768 f5_node_pool=CPPM3076_TEST_V f5_node_port=8081 f5_node_ip=10.1.70.125
+DEMUNAPP862 f5_node_pool=CPPM3078_PROD_V f5_node_port=14001 f5_node_ip=10.1.106.126
+DEMUNAPP861 f5_node_pool=CPPM3078_PROD_V f5_node_port=14001 f5_node_ip=10.1.106.125
+DEMUNAPP945 f5_node_pool=CPPM3086_DEV_V f5_node_port=14001 f5_node_ip=10.1.70.110
+DEMUNAPP946 f5_node_pool=CPPM3086_TEST_V f5_node_port=8081 f5_node_ip=10.1.70.111
+DEMUNAPP838 f5_node_pool=CPPM3093_TEST_V f5_node_port=14001 f5_node_ip=10.1.106.48
+DEMUNAPP462 f5_node_pool=CPPM3093_PROD_V f5_node_port=14001 f5_node_ip=10.1.106.94
+DEMUNAPP998 f5_node_pool=CPPM3093_PROD_V f5_node_port=14001 f5_node_ip=10.1.106.91
+
+[addmembers]
+DEMUNAPP1487 f5_node_pool=CPPM3022_TEST_V f5_node_port=14001 f5_node_ip=10.1.70.143
+DEMUNAPP1488 f5_node_pool=CPPM3031_TEST_V f5_node_port=14001 f5_node_ip=10.1.70.144
+DEMUNAPP1489 f5_node_pool=CPPM3038_PROD_V f5_node_port=14001 f5_node_ip=10.1.70.145
+DEMUNAPP1490 f5_node_pool=CPPM3038_PROD_V f5_node_port=14001 f5_node_ip=10.1.70.146
+DEMUNAPP1491 f5_node_pool=CPPM3039_DEV_V f5_node_port=14001 f5_node_ip=10.1.70.147
+DEMUNAPP1492 f5_node_pool=CPPM3053_DEV_V f5_node_port=14001 f5_node_ip=10.1.70.148
+DEMUNAPP1493 f5_node_pool=CPPM3053_PROD_V f5_node_port=14001 f5_node_ip=10.1.70.149
+DEMUNAPP1494 f5_node_pool=CPPM3053_PROD_V f5_node_port=14001 f5_node_ip=10.1.70.150
+DEMUNAPP1495 f5_node_pool=CPPM3054_DEV_V f5_node_port=14001 f5_node_ip=10.1.70.151
+DEMUNAPP1496 f5_node_pool=CPPM3076_TEST_V f5_node_port=8081 f5_node_ip=10.1.70.152
+DEMUNAPP1497 f5_node_pool=CPPM3078_PROD_V f5_node_port=14001 f5_node_ip=10.1.70.153
+DEMUNAPP1498 f5_node_pool=CPPM3078_PROD_V f5_node_port=14001 f5_node_ip=10.1.70.154
+DEMUNAPP1499 f5_node_pool=CPPM3086_DEV_V f5_node_port=14001 f5_node_ip=10.1.70.155
+DEMUNAPP1500 f5_node_pool=CPPM3086_TEST_V f5_node_port=8081 f5_node_ip=10.1.70.156
+DEMUNAPP1501 f5_node_pool=CPPM3093_TEST_V f5_node_port=14001 f5_node_ip=10.1.70.157
+DEMUNAPP1502 f5_node_pool=CPPM3093_PROD_V f5_node_port=14001 f5_node_ip=10.1.70.158
+DEMUNAPP1503 f5_node_pool=CPPM3093_PROD_V f5_node_port=14001 f5_node_ip=10.1.70.159
