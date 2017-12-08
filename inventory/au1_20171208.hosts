@@ -1,0 +1,23 @@
+[au1:children]
+delmembers
+addmembers
+
+[delmembers]
+AU1APP009 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.33
+AU1APP010 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.34
+AU1APP011 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.35
+AU1APP012 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.36
+AU1APP055 f5_node_pool=CPPM6104_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.71
+AU1APP054 f5_node_pool=CPPM6104_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.49
+AU1APP100 f5_node_pool=CPPM6110_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.208
+AU1APP101 f5_node_pool=CPPM6110_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.209
+
+[addmembers]
+AU1APP369 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.33.226
+AU1APP370 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.33.227
+AU1APP371 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.33.228
+AU1APP372 f5_node_pool=CPPM6002_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.13
+AU1APP384 f5_node_pool=CPPM6104_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.42
+AU1APP385 f5_node_pool=CPPM6104_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.50
+AU1APP381 f5_node_pool=CPPM6110_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.38
+AU1APP382 f5_node_pool=CPPM6110_PROD_V f5_node_port=8081 f5_node_ip=10.11.32.39
