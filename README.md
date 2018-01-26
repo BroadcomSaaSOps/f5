@@ -65,6 +65,11 @@ ansible-playbook -i inventory/us5.hosts site.yml --tags="addnode,addpoolmember,d
 
 
 A demonstration can be downloaded [here](https://catechnologies.webex.com/svc3200/svccomponents/servicerecordings/servicerecordinginfo.do?RCID=4d83c33a884d4cfca4ccb337d9a3d687&siteurl=catechnologies&apiname=viewrd.php&needFilter=false&rnd=3566110348&isurlact=true&entactname=%2FnbrRedirect.do&entappname=url3200&renewticket=0&serviceType=mc&targetAction=%2Fsvccomponents%2Fservicerecordings%2Fservicerecordinginfo.do&mywbxLink=yes&rID=105931402&recordID=105931402&targetApp=svc3200&action=info&SP=MC&fromUrlApi=1)
+### Common Errors
+1. *TODO* IP in use - F5 already has an entry with that IP address in use. Manually clean up the stale entry.
+2. *TODO* IP or hostname in use - F5 already has an entry with that hostname. Manually clean up the stale entry.
+3. *TODO* <Insert Error Message>. - Your input file has a zero in the last octet. Manually fix the input file.
+4. *TODO* <Insert Error Message>. - Your input file lacks the header info. Add [env:children] to header and 'addmembers/delmembers'
 
 ### GOTCHAS
 1. When removing a node from a pool, the node will also be removed from the F5. This is okay for this current migration maintenance, but could be dangerous in the future. This is a limitation of the F5 API and not something I can fix. The tag "delpoolmember" does exactly this. BE CAREFUL.
