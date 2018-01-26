@@ -31,6 +31,7 @@ new_rhel6_hostname2 f5_node_pool=poolname f5_node_port=14002 f5_node_ip=10.10.10
 old_rhel5_hostname1 f5_node_pool=poolname f5_node_port=14001 f5_node_ip=10.10.10.10
 old_rhel5_hostname2 f5_node_pool=poolname f5_node_port=14002 f5_node_ip=10.10.10.10
 ```
+
 2. RDP and/or SSH into the respective environment's ansible machine:
   - ssh us5npopsansi01
   - ssh sc5opsansi01
@@ -39,14 +40,17 @@ old_rhel5_hostname2 f5_node_pool=poolname f5_node_port=14002 f5_node_ip=10.10.10
 
 3. cd /usr/share/ansible/f5  
 
-4. ansible-playbook -i /path/to/inventory/file.hosts site.yml --tags="[tags]"
+4. ansible-playbook -i /path/to/inventory/file.hosts site.yml --tags="[tags]" --check
 ```
    where [tags] is one or more of the following (comma separated):
    addnodedisabled
    addnode
    addpoolmember
    disablepoolmember
-   delpoolmember   
+   delpoolmember  
+
+   and --check runs in 'testing' or 'dry-run' mode.
+   Always use --check on your first run to address any mistakes before the real execution.
 ```
 example:
 ```
@@ -57,6 +61,9 @@ ansible-playbook -i inventory/us5.hosts site.yml --tags="addnode,addpoolmember,d
 ansible-playbook -i inventory/us5.hosts site.yml --tags="addnodedisabled,addpoolmember"
 ansible-playbook -i inventory/us5.hosts site.yml --tags="addnode,addpoolmember,disablepoolmember"
 ```
+
+
+
 A demonstration can be downloaded [here](https://catechnologies.webex.com/svc3200/svccomponents/servicerecordings/servicerecordinginfo.do?RCID=4d83c33a884d4cfca4ccb337d9a3d687&siteurl=catechnologies&apiname=viewrd.php&needFilter=false&rnd=3566110348&isurlact=true&entactname=%2FnbrRedirect.do&entappname=url3200&renewticket=0&serviceType=mc&targetAction=%2Fsvccomponents%2Fservicerecordings%2Fservicerecordinginfo.do&mywbxLink=yes&rID=105931402&recordID=105931402&targetApp=svc3200&action=info&SP=MC&fromUrlApi=1)
 
 ### GOTCHAS
@@ -79,7 +86,7 @@ US5NPAPP308    10.47.33.188      10.47.35.188      10.47.13.195
   easy_install pip
   pip install bigsuds
 ```
-This playbook includes a bootstrap role which can install the requisite packages. This should only need to run one time to prepare the Ansible server. To use it, try the "--bootstrap" tag. Root is required for this, so it is an Infrastructure Server task only.
+This playbook includes a bootstrap role which can install the requisite packages. This should only need to run one time to prepare the Ansible server. To use it, try the "bootstrap" tag. Root is required for this, so it is an Infrastructure Server task only.
 ex. $ ansible-playbook -i inventory/us5.hosts site.yml --tags="bootstrap" --check --ask-sudo-pass
 
 
