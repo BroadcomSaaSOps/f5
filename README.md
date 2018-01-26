@@ -68,8 +68,8 @@ A demonstration can be downloaded [here](https://catechnologies.webex.com/svc320
 ### Common Errors
 1. *TODO* IP in use - F5 already has an entry with that IP address in use. Manually clean up the stale entry.
 2. *TODO* IP or hostname in use - F5 already has an entry with that hostname. Manually clean up the stale entry.
-3. *TODO* <Insert Error Message>. - Your input file has a zero in the last octet. Manually fix the input file.
-4. *TODO* <Insert Error Message>. - Your input file lacks the header info. Add [env:children] to header and 'addmembers/delmembers'
+3. *TODO* [Insert Error Message]. - Your input file has a zero in the last octet. Manually fix the input file.
+4. *TODO* [Insert Error Message]. - Your input file lacks the header info. Add [env:children] to header and 'addmembers/delmembers'
 
 ### GOTCHAS
 1. When removing a node from a pool, the node will also be removed from the F5. This is okay for this current migration maintenance, but could be dangerous in the future. This is a limitation of the F5 API and not something I can fix. The tag "delpoolmember" does exactly this. BE CAREFUL.
