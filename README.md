@@ -38,10 +38,15 @@ old_rhel5_hostname2 f5_node_pool=poolname f5_node_port=14002 f5_node_ip=10.10.10
   - ssh demunopsansi01
   - ssh au1opsansi01
 
-3. cd /usr/share/ansible/f5  
-
-4. ansible-playbook -i /path/to/inventory/file.hosts site.yml --tags="[tags]" --check
+3. Change directory to where the automation is staged:
 ```
+cd /usr/share/ansible/f5
+```
+
+4. Run the playbook, substituting in the appropriate values:
+```
+ansible-playbook -i /path/to/inventory/file.hosts site.yml --tags="[tags]" --check
+
    where [tags] is one or more of the following (comma separated):
    addnodedisabled
    addnode
