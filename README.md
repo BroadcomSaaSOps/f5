@@ -46,17 +46,15 @@ cd /usr/share/ansible/f5
 4. Run the playbook, substituting in the appropriate values:
 ```
 ansible-playbook -i /path/to/inventory/file.hosts site.yml --tags="[tags]" --check
-
-   where [tags] is one or more of the following (comma separated):
-   addnodedisabled
-   addnode
-   addpoolmember
-   disablepoolmember
-   delpoolmember  
-
-   and --check runs in 'testing' or 'dry-run' mode.
-   Always use --check on your first run to address any mistakes before the real execution.
 ```
+where [tags] is one or more of the following (comma separated):
+  - addnodedisabled
+  - addnode
+  - addpoolmember
+  - disablepoolmember
+  - delpoolmember  
+and --check runs in 'testing' or 'dry-run' mode.
+**Always use --check on your first run to address any mistakes before the real execution.**
 example:
 ```
 (all in one)
