@@ -72,15 +72,7 @@ A demonstration can be downloaded [here](https://catechnologies.webex.com/svc320
 
 
 ### Other Notes
-1. These VMs are available for testing in US5NP.
-```
-Hostname       PUB IP            MGMT IP           STG IP
-US5NPAPP298    10.47.33.206      10.47.35.195      10.47.13.173
-US5NPAPP299    10.47.33.207      10.47.35.196      10.47.13.174
-US5NPAPP307    10.47.33.187      10.47.35.187      10.47.13.194
-US5NPAPP308    10.47.33.188      10.47.35.188      10.47.13.195
-```
-2. Prerequisite packages
+Prerequisite packages
 ```
   ansible 2.2+
   easy_install pip
