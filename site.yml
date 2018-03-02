@@ -1,6 +1,6 @@
 ---
 # Ensure prerequisites are met to run
-- hosts: us5,sc5,au1,mun
+- hosts: azure,us5,sc5,au1,mun
   gather_facts: false
   roles:
     - f5-bootstrap
