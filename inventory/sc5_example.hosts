@@ -1,3 +1,7 @@
+[sc5:children]
+addmembers
+delmembers
+
 [delmembers]
 SC5APP1080 f5_node_pool=CPPM1010_DEV_V f5_node_port=8081 f5_node_ip=10.45.136.225
 SC5APP1136 f5_node_pool=CPPM1010_TEST_V f5_node_port=8081 f5_node_ip=10.45.137.52
@@ -11,18 +15,6 @@ SC5APP797 f5_node_pool=CPPM1113_TEST_V f5_node_port=8081 f5_node_ip=10.45.133.18
 SC5APP682 f5_node_pool=CPPM2012_TEST_V f5_node_port=8081 f5_node_ip=10.45.133.62
 SC5APP691 f5_node_pool=CPPM2080_NP_V f5_node_port=8081 f5_node_ip=10.45.133.71
 SC5APP692 f5_node_pool=CPPM2080_NP_V f5_node_port=8081 f5_node_ip=10.45.133.72
-SC5APP791 f5_node_pool=CPPM1133_DEV_V f5_node_port=8081 f5_node_ip=10.45.133.176
-SC5APP792 f5_node_pool=CPPM1133_TEST_V f5_node_port=8081 f5_node_ip=10.45.133.177
-SC5APP748 f5_node_pool=CPPM1138_DEV_V f5_node_port=8081 f5_node_ip=10.45.133.131
-SC5APP749 f5_node_pool=CPPM1138_TEST_V f5_node_port=8081 f5_node_ip=10.45.133.132
-SC5APP681 f5_node_pool=CPPM2012_DEV_V f5_node_port=8081 f5_node_ip=10.45.133.61
-SC5APP141 f5_node_pool=CPPM2053_DEV_V f5_node_port=8081 f5_node_ip=10.45.32.151
-SC5APP142 f5_node_pool=CPPM2053_TEST_V f5_node_port=8081 f5_node_ip=10.45.32.152
-SC5APP934 f5_node_pool=CPPM2063_DEV_V f5_node_port=8081 f5_node_ip=10.45.136.79
-SC5APP935 f5_node_pool=CPPM2063_TEST_V f5_node_port=8081 f5_node_ip=10.45.136.80
-SC5APP886 f5_node_pool=CPPM2012_PMO_V f5_node_port=14001 f5_node_ip=10.45.136.31
-SC5APP1021 f5_node_pool=CPPM2069_DEV_V f5_node_port=14001 f5_node_ip=10.45.136.166
-SC5APP1228 f5_node_pool=CPPM2072_DEV_V f5_node_port=8081 f5_node_ip=10.45.137.145
 
 [addmembers]
 SC5APP2517 f5_node_pool=CPPM1010_DEV_V f5_node_port=8081 f5_node_ip=10.45.142.58
@@ -35,17 +27,3 @@ SC5APP2523 f5_node_pool=CPPM1113_DEV_V f5_node_port=8081 f5_node_ip=10.45.33.84
 SC5APP2524 f5_node_pool=CPPM1113_QA_V f5_node_port=8081 f5_node_ip=10.45.33.85
 SC5APP2525 f5_node_pool=CPPM1113_TEST_V f5_node_port=8081 f5_node_ip=10.45.142.62
 SC5APP2526 f5_node_pool=CPPM2012_TEST_V f5_node_port=8081 f5_node_ip=10.45.33.207
-SC5APP2527 f5_node_pool=CPPM2080_NP_V f5_node_port=8081 f5_node_ip=10.45.33.224
-SC5APP2528 f5_node_pool=CPPM2080_NP_V f5_node_port=8081 f5_node_ip=10.45.33.252
-SC5APP2529 f5_node_pool=CPPM1133_DEV_V f5_node_port=8081 f5_node_ip=10.45.33.254
-SC5APP2593 f5_node_pool=CPPM1133_TEST_V f5_node_port=8081 f5_node_ip=10.45.133.122
-SC5APP2594 f5_node_pool=CPPM1138_DEV_V f5_node_port=8081 f5_node_ip=10.45.133.127
-SC5APP2595 f5_node_pool=CPPM1138_TEST_V f5_node_port=8081 f5_node_ip=10.45.133.135
-SC5APP2596 f5_node_pool=CPPM2012_DEV_V f5_node_port=8081 f5_node_ip=10.45.133.143
-SC5APP2597 f5_node_pool=CPPM2053_DEV_V f5_node_port=8081 f5_node_ip=10.45.133.186
-SC5APP2598 f5_node_pool=CPPM2053_TEST_V f5_node_port=8081 f5_node_ip=10.45.133.196
-SC5APP2599 f5_node_pool=CPPM2063_DEV_V f5_node_port=8081 f5_node_ip=10.45.133.218
-SC5APP2600 f5_node_pool=CPPM2063_TEST_V f5_node_port=8081 f5_node_ip=10.45.133.228
-SC5APP2601 f5_node_pool=CPPM2012_PMO_V f5_node_port=14001 f5_node_ip=10.45.136.116
-SC5APP2602 f5_node_pool=CPPM2069_DEV_V f5_node_port=14001 f5_node_ip=10.45.136.117
-SC5APP2603 f5_node_pool=CPPM2072_DEV_V f5_node_port=8081 f5_node_ip=10.45.136.228
