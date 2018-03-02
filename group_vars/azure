@@ -1,4 +1,6 @@
 ---
 # Accessible via sc5opsansi01
+f5_username: 'ansible'
+f5_password: 'sgx\m6zXeB{?z&jk'
 f5_hostname: '10.54.5.24'
 ...
