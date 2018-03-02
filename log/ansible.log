@@ -1015,3 +1015,1371 @@
 2018-03-02 12:08:16,895 p=4622 u=kinma13 |  Friday 02 March 2018  12:08:16 -0500 (0:04:26.741)       0:04:28.808 ********** 
 2018-03-02 12:08:16,895 p=4622 u=kinma13 |  =============================================================================== 
 2018-03-02 12:08:16,895 p=4622 u=kinma13 |  f5-pool-member-add : Add pool member ---------------------------------- 266.74s
+2018-03-02 12:16:36,731 p=14107 u=kinma13 |  PLAY [azure,us5,sc5,au1,mun] *****************************************************************************************************************************************************************************************************************
+2018-03-02 12:16:37,588 p=14107 u=kinma13 |  PLAY [addmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:16:38,114 p=14107 u=kinma13 |  PLAY [addmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:16:38,650 p=14107 u=kinma13 |  PLAY [addmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:16:38,726 p=14107 u=kinma13 |  TASK [f5-pool-member-add : Add pool member] **************************************************************************************************************************************************************************************************
+2018-03-02 12:16:38,726 p=14107 u=kinma13 |  Friday 02 March 2018  12:16:38 -0500 (0:00:02.636)       0:00:02.636 ********** 
+2018-03-02 12:17:06,173 p=14107 u=kinma13 |  fatal: [10.55.32.138 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:17:13,693 p=14107 u=kinma13 |  fatal: [10.55.32.139 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:17:13,694 p=14107 u=kinma13 |  fatal: [10.55.32.140 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:17:18,591 p=14107 u=kinma13 |  fatal: [10.55.33.176 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1026_prod does not exist"}
+2018-03-02 12:17:21,426 p=14107 u=kinma13 |  fatal: [10.55.32.141 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:17:22,753 p=14107 u=kinma13 |  fatal: [10.55.32.137 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:17:35,252 p=14107 u=kinma13 |  fatal: [10.55.33.110 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1088_prod does not exist"}
+2018-03-02 12:17:35,253 p=14107 u=kinma13 |  fatal: [10.55.33.209 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1035_prod does not exist"}
+2018-03-02 12:17:36,294 p=14107 u=kinma13 |  fatal: [10.55.32.193 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1080_prod does not exist"}
+2018-03-02 12:17:36,762 p=14107 u=kinma13 |  fatal: [10.55.32.192 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1080_prod does not exist"}
+2018-03-02 12:17:47,447 p=14107 u=kinma13 |  fatal: [10.55.33.136 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1072_prod does not exist"}
+2018-03-02 12:17:47,448 p=14107 u=kinma13 |  fatal: [10.55.33.156 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1121_prod does not exist"}
+2018-03-02 12:17:52,753 p=14107 u=kinma13 |  fatal: [10.55.32.119 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2012_prod does not exist"}
+2018-03-02 12:17:55,252 p=14107 u=kinma13 |  fatal: [10.55.32.117 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2018_prod does not exist"}
+2018-03-02 12:17:55,586 p=14107 u=kinma13 |  fatal: [10.55.32.142 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1131_prod does not exist"}
+2018-03-02 12:17:56,492 p=14107 u=kinma13 |  fatal: [10.55.33.231 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1142_prod does not exist"}
+2018-03-02 12:18:01,856 p=14107 u=kinma13 |  fatal: [10.55.33.114 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1072_prod does not exist"}
+2018-03-02 12:18:05,795 p=14107 u=kinma13 |  fatal: [10.55.32.132 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1131_prod does not exist"}
+2018-03-02 12:18:05,795 p=14107 u=kinma13 |  fatal: [10.55.33.183 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2020_prod does not exist"}
+2018-03-02 12:18:07,650 p=14107 u=kinma13 |  fatal: [10.55.32.184 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2058_prod does not exist"}
+2018-03-02 12:18:07,746 p=14107 u=kinma13 |  fatal: [10.55.32.190 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1109_prod does not exist"}
+2018-03-02 12:18:08,697 p=14107 u=kinma13 |  fatal: [10.55.32.73 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9010_prod does not exist"}
+2018-03-02 12:18:09,130 p=14107 u=kinma13 |  fatal: [10.55.33.199 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9012_prod does not exist"}
+2018-03-02 12:18:09,712 p=14107 u=kinma13 |  fatal: [10.55.32.107 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9003_prod does not exist"}
+2018-03-02 12:18:11,794 p=14107 u=kinma13 |  fatal: [10.55.32.31 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm8047_prod does not exist"}
+2018-03-02 12:18:15,113 p=14107 u=kinma13 |  fatal: [10.55.32.108 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm8043_prod does not exist"}
+2018-03-02 12:18:15,114 p=14107 u=kinma13 |  fatal: [10.55.32.70 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9021_prod does not exist"}
+2018-03-02 12:18:17,384 p=14107 u=kinma13 |  fatal: [10.55.32.71 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9021_prod does not exist"}
+2018-03-02 12:18:19,387 p=14107 u=kinma13 |  fatal: [10.55.33.63 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9016_prod does not exist"}
+2018-03-02 12:18:19,862 p=14107 u=kinma13 |  fatal: [10.55.32.105 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9022_prod does not exist"}
+2018-03-02 12:18:20,185 p=14107 u=kinma13 |  fatal: [10.55.32.67 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9023_prod does not exist"}
+2018-03-02 12:18:20,245 p=14107 u=kinma13 |  fatal: [10.55.32.177 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9011_prod does not exist"}
+2018-03-02 12:18:20,434 p=14107 u=kinma13 |  fatal: [10.55.32.179 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9006_prod does not exist"}
+2018-03-02 12:18:23,921 p=14107 u=kinma13 |  fatal: [10.55.32.144 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9028_prod does not exist"}
+2018-03-02 12:18:26,236 p=14107 u=kinma13 |  fatal: [10.55.32.178 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9011_prod does not exist"}
+2018-03-02 12:18:26,754 p=14107 u=kinma13 |  fatal: [10.55.33.212 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9087_prod does not exist"}
+2018-03-02 12:18:26,792 p=14107 u=kinma13 |  fatal: [10.55.33.213 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2037_prod does not exist"}
+2018-03-02 12:18:27,144 p=14107 u=kinma13 |  fatal: [10.55.32.98 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9048_prod does not exist"}
+2018-03-02 12:18:27,337 p=14107 u=kinma13 |  fatal: [10.55.33.206 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9085_prod does not exist"}
+2018-03-02 12:18:27,384 p=14107 u=kinma13 |  fatal: [10.55.32.29 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9069_prod does not exist"}
+2018-03-02 12:18:27,681 p=14107 u=kinma13 |  fatal: [10.55.32.28 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9070_prod does not exist"}
+2018-03-02 12:18:29,097 p=14107 u=kinma13 |  fatal: [10.55.32.49 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9041_prod does not exist"}
+2018-03-02 12:18:29,164 p=14107 u=kinma13 |  fatal: [10.55.32.45 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1128_prod does not exist"}
+2018-03-02 12:18:29,165 p=14107 u=kinma13 |  fatal: [10.55.32.23 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9076_prod does not exist"}
+2018-03-02 12:18:29,625 p=14107 u=kinma13 |  fatal: [10.55.33.202 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9091_prod does not exist"}
+2018-03-02 12:18:30,689 p=14107 u=kinma13 |  fatal: [10.55.33.201 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9092_prod does not exist"}
+2018-03-02 12:18:31,560 p=14107 u=kinma13 |  fatal: [10.55.32.50 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9039_prod does not exist"}
+2018-03-02 12:18:31,647 p=14107 u=kinma13 |  changed: [10.55.32.194 -> localhost]
+2018-03-02 12:18:31,648 p=14107 u=kinma13 |  fatal: [10.55.32.53 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm8050_prod does not exist"}
+2018-03-02 12:18:32,733 p=14107 u=kinma13 |  fatal: [10.55.32.48 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:18:33,887 p=14107 u=kinma13 |  fatal: [10.55.32.25 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9071_prod does not exist"}
+2018-03-02 12:18:35,156 p=14107 u=kinma13 |  changed: [10.55.32.196 -> localhost]
+2018-03-02 12:18:35,363 p=14107 u=kinma13 |  fatal: [10.55.32.24 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9076_prod does not exist"}
+2018-03-02 12:18:35,653 p=14107 u=kinma13 |  fatal: [10.55.33.157 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9102_prod does not exist"}
+2018-03-02 12:18:36,780 p=14107 u=kinma13 |  fatal: [10.55.32.97 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9052_prod does not exist"}
+2018-03-02 12:18:37,640 p=14107 u=kinma13 |  fatal: [10.55.33.211 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9087_prod does not exist"}
+2018-03-02 12:18:38,112 p=14107 u=kinma13 |  fatal: [10.55.32.57 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9023_prod does not exist"}
+2018-03-02 12:18:38,289 p=14107 u=kinma13 |  fatal: [10.55.32.175 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9024_prod does not exist"}
+2018-03-02 12:18:38,361 p=14107 u=kinma13 |  changed: [10.55.32.66 -> localhost]
+2018-03-02 12:18:38,453 p=14107 u=kinma13 |  fatal: [10.55.33.179 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9110_prod does not exist"}
+2018-03-02 12:18:38,563 p=14107 u=kinma13 |  changed: [10.55.32.135 -> localhost]
+2018-03-02 12:18:38,777 p=14107 u=kinma13 |  changed: [10.55.32.195 -> localhost]
+2018-03-02 12:18:39,191 p=14107 u=kinma13 |  fatal: [10.55.32.27 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9070_prod does not exist"}
+2018-03-02 12:18:39,628 p=14107 u=kinma13 |  fatal: [10.55.32.121 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:18:40,398 p=14107 u=kinma13 |  changed: [10.55.32.134 -> localhost]
+2018-03-02 12:18:41,082 p=14107 u=kinma13 |  fatal: [10.55.33.205 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9085_prod does not exist"}
+2018-03-02 12:18:41,545 p=14107 u=kinma13 |  fatal: [10.55.32.26 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:18:41,546 p=14107 u=kinma13 |  fatal: [10.55.32.63 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:18:41,672 p=14107 u=kinma13 |  changed: [10.55.32.133 -> localhost]
+2018-03-02 12:18:42,547 p=14107 u=kinma13 |  fatal: [10.55.33.113 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:18:43,126 p=14107 u=kinma13 |  changed: [10.55.32.125 -> localhost]
+2018-03-02 12:18:43,311 p=14107 u=kinma13 |  fatal: [10.55.32.118 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:18:44,722 p=14107 u=kinma13 |  changed: [10.55.32.131 -> localhost]
+2018-03-02 12:18:45,107 p=14107 u=kinma13 |  changed: [10.55.32.126 -> localhost]
+2018-03-02 12:18:45,876 p=14107 u=kinma13 |  fatal: [10.55.33.169 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9113_prod does not exist"}
+2018-03-02 12:18:46,104 p=14107 u=kinma13 |  fatal: [10.55.33.174 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9107_prod does not exist"}
+2018-03-02 12:18:46,233 p=14107 u=kinma13 |  fatal: [10.55.32.115 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:18:46,480 p=14107 u=kinma13 |  fatal: [10.55.33.193 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:18:46,526 p=14107 u=kinma13 |  fatal: [10.55.32.186 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:18:46,854 p=14107 u=kinma13 |  changed: [10.55.32.124 -> localhost]
+2018-03-02 12:18:47,284 p=14107 u=kinma13 |  fatal: [10.55.33.187 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:18:47,573 p=14107 u=kinma13 |  fatal: [10.55.33.170 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9113_prod does not exist"}
+2018-03-02 12:18:47,617 p=14107 u=kinma13 |  fatal: [10.55.32.185 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:18:47,690 p=14107 u=kinma13 |  changed: [10.55.32.65 -> localhost]
+2018-03-02 12:18:48,448 p=14107 u=kinma13 |  fatal: [10.55.32.111 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:18:48,846 p=14107 u=kinma13 |  changed: [10.55.32.127 -> localhost]
+2018-03-02 12:18:50,055 p=14107 u=kinma13 |  fatal: [10.55.32.58 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:18:50,398 p=14107 u=kinma13 |  fatal: [10.55.33.189 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:18:50,689 p=14107 u=kinma13 |  changed: [10.55.32.61 -> localhost]
+2018-03-02 12:18:51,318 p=14107 u=kinma13 |  changed: [10.55.32.120 -> localhost]
+2018-03-02 12:18:51,560 p=14107 u=kinma13 |  changed: [10.55.32.130 -> localhost]
+2018-03-02 12:18:51,673 p=14107 u=kinma13 |  fatal: [10.55.33.195 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:18:51,932 p=14107 u=kinma13 |  changed: [10.55.32.187 -> localhost]
+2018-03-02 12:18:52,355 p=14107 u=kinma13 |  fatal: [10.55.32.172 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:18:53,294 p=14107 u=kinma13 |  changed: [10.55.32.60 -> localhost]
+2018-03-02 12:18:53,626 p=14107 u=kinma13 |  changed: [10.55.32.191 -> localhost]
+2018-03-02 12:18:55,872 p=14107 u=kinma13 |  changed: [10.55.33.158 -> localhost]
+2018-03-02 12:18:55,873 p=14107 u=kinma13 |  changed: [10.55.32.112 -> localhost]
+2018-03-02 12:18:56,817 p=14107 u=kinma13 |  changed: [10.55.32.182 -> localhost]
+2018-03-02 12:18:56,894 p=14107 u=kinma13 |  fatal: [10.55.33.173 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:18:57,188 p=14107 u=kinma13 |  changed: [10.55.32.181 -> localhost]
+2018-03-02 12:18:57,237 p=14107 u=kinma13 |  changed: [10.55.32.129 -> localhost]
+2018-03-02 12:18:57,525 p=14107 u=kinma13 |  changed: [10.55.32.62 -> localhost]
+2018-03-02 12:18:57,646 p=14107 u=kinma13 |  changed: [10.55.33.227 -> localhost]
+2018-03-02 12:18:57,875 p=14107 u=kinma13 |  changed: [10.55.32.84 -> localhost]
+2018-03-02 12:18:58,062 p=14107 u=kinma13 |  changed: [10.55.32.83 -> localhost]
+2018-03-02 12:18:59,519 p=14107 u=kinma13 |  changed: [10.55.32.189 -> localhost]
+2018-03-02 12:18:59,546 p=14107 u=kinma13 |  changed: [10.55.32.183 -> localhost]
+2018-03-02 12:19:00,275 p=14107 u=kinma13 |  fatal: [10.55.32.74 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9005_prod does not exist"}
+2018-03-02 12:19:00,354 p=14107 u=kinma13 |  changed: [10.55.32.78 -> localhost]
+2018-03-02 12:19:01,106 p=14107 u=kinma13 |  changed: [10.55.32.64 -> localhost]
+2018-03-02 12:19:01,441 p=14107 u=kinma13 |  changed: [10.55.32.128 -> localhost]
+2018-03-02 12:19:02,050 p=14107 u=kinma13 |  changed: [10.55.32.123 -> localhost]
+2018-03-02 12:19:02,483 p=14107 u=kinma13 |  changed: [10.55.32.176 -> localhost]
+2018-03-02 12:19:03,148 p=14107 u=kinma13 |  fatal: [10.55.32.72 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:03,464 p=14107 u=kinma13 |  changed: [10.55.32.180 -> localhost]
+2018-03-02 12:19:03,693 p=14107 u=kinma13 |  changed: [10.55.32.51 -> localhost]
+2018-03-02 12:19:04,099 p=14107 u=kinma13 |  fatal: [10.55.33.230 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2036_prod does not exist"}
+2018-03-02 12:19:04,150 p=14107 u=kinma13 |  changed: [10.55.32.113 -> localhost]
+2018-03-02 12:19:04,383 p=14107 u=kinma13 |  changed: [10.55.32.80 -> localhost]
+2018-03-02 12:19:04,384 p=14107 u=kinma13 |  changed: [10.55.33.228 -> localhost]
+2018-03-02 12:19:05,954 p=14107 u=kinma13 |  fatal: [10.55.32.38 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:19:07,776 p=14107 u=kinma13 |  changed: [10.55.32.99 -> localhost]
+2018-03-02 12:19:07,948 p=14107 u=kinma13 |  changed: [10.55.32.171 -> localhost]
+2018-03-02 12:19:08,075 p=14107 u=kinma13 |  changed: [10.55.32.85 -> localhost]
+2018-03-02 12:19:08,948 p=14107 u=kinma13 |  changed: [10.55.33.229 -> localhost]
+2018-03-02 12:19:10,184 p=14107 u=kinma13 |  changed: [10.55.32.188 -> localhost]
+2018-03-02 12:19:10,483 p=14107 u=kinma13 |  fatal: [10.55.32.59 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:10,837 p=14107 u=kinma13 |  changed: [10.55.32.170 -> localhost]
+2018-03-02 12:19:10,988 p=14107 u=kinma13 |  changed: [10.55.32.35 -> localhost]
+2018-03-02 12:19:11,696 p=14107 u=kinma13 |  changed: [10.55.32.42 -> localhost]
+2018-03-02 12:19:12,353 p=14107 u=kinma13 |  fatal: [10.55.32.56 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:13,771 p=14107 u=kinma13 |  changed: [10.55.32.169 -> localhost]
+2018-03-02 12:19:13,981 p=14107 u=kinma13 |  changed: [10.55.32.103 -> localhost]
+2018-03-02 12:19:14,300 p=14107 u=kinma13 |  changed: [10.55.32.34 -> localhost]
+2018-03-02 12:19:14,790 p=14107 u=kinma13 |  changed: [10.55.32.102 -> localhost]
+2018-03-02 12:19:14,825 p=14107 u=kinma13 |  changed: [10.55.32.96 -> localhost]
+2018-03-02 12:19:14,997 p=14107 u=kinma13 |  fatal: [10.55.32.136 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:15,377 p=14107 u=kinma13 |  changed: [10.55.32.33 -> localhost]
+2018-03-02 12:19:15,901 p=14107 u=kinma13 |  changed: [10.55.32.106 -> localhost]
+2018-03-02 12:19:16,830 p=14107 u=kinma13 |  fatal: [10.55.32.52 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:18,768 p=14107 u=kinma13 |  changed: [10.55.32.104 -> localhost]
+2018-03-02 12:19:18,832 p=14107 u=kinma13 |  changed: [10.55.32.93 -> localhost]
+2018-03-02 12:19:18,871 p=14107 u=kinma13 |  changed: [10.55.33.222 -> localhost]
+2018-03-02 12:19:19,184 p=14107 u=kinma13 |  changed: [10.55.32.174 -> localhost]
+2018-03-02 12:19:19,351 p=14107 u=kinma13 |  changed: [10.55.32.101 -> localhost]
+2018-03-02 12:19:19,705 p=14107 u=kinma13 |  changed: [10.55.32.95 -> localhost]
+2018-03-02 12:19:20,286 p=14107 u=kinma13 |  changed: [10.55.32.75 -> localhost]
+2018-03-02 12:19:20,287 p=14107 u=kinma13 |  changed: [10.55.32.79 -> localhost]
+2018-03-02 12:19:20,960 p=14107 u=kinma13 |  changed: [10.55.32.37 -> localhost]
+2018-03-02 12:19:20,960 p=14107 u=kinma13 |  changed: [10.55.32.114 -> localhost]
+2018-03-02 12:19:21,117 p=14107 u=kinma13 |  changed: [10.55.32.54 -> localhost]
+2018-03-02 12:19:21,118 p=14107 u=kinma13 |  changed: [10.55.33.219 -> localhost]
+2018-03-02 12:19:21,353 p=14107 u=kinma13 |  changed: [10.55.32.41 -> localhost]
+2018-03-02 12:19:21,893 p=14107 u=kinma13 |  changed: [10.55.32.30 -> localhost]
+2018-03-02 12:19:23,906 p=14107 u=kinma13 |  fatal: [10.55.33.217 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:24,736 p=14107 u=kinma13 |  changed: [10.55.32.168 -> localhost]
+2018-03-02 12:19:25,351 p=14107 u=kinma13 |  changed: [10.55.33.155 -> localhost]
+2018-03-02 12:19:25,852 p=14107 u=kinma13 |  changed: [10.55.33.197 -> localhost]
+2018-03-02 12:19:26,307 p=14107 u=kinma13 |  changed: [10.55.33.220 -> localhost]
+2018-03-02 12:19:26,308 p=14107 u=kinma13 |  changed: [10.55.33.152 -> localhost]
+2018-03-02 12:19:26,832 p=14107 u=kinma13 |  fatal: [10.55.33.115 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9130_prod does not exist"}
+2018-03-02 12:19:26,833 p=14107 u=kinma13 |  changed: [10.55.33.196 -> localhost]
+2018-03-02 12:19:27,126 p=14107 u=kinma13 |  changed: [10.55.33.175 -> localhost]
+2018-03-02 12:19:27,451 p=14107 u=kinma13 |  changed: [10.55.32.81 -> localhost]
+2018-03-02 12:19:27,891 p=14107 u=kinma13 |  fatal: [10.55.33.132 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9133_prod does not exist"}
+2018-03-02 12:19:28,307 p=14107 u=kinma13 |  changed: [10.55.33.154 -> localhost]
+2018-03-02 12:19:30,093 p=14107 u=kinma13 |  changed: [10.55.33.153 -> localhost]
+2018-03-02 12:19:30,957 p=14107 u=kinma13 |  changed: [10.55.32.122 -> localhost]
+2018-03-02 12:19:30,958 p=14107 u=kinma13 |  changed: [10.55.33.182 -> localhost]
+2018-03-02 12:19:31,565 p=14107 u=kinma13 |  changed: [10.55.33.226 -> localhost]
+2018-03-02 12:19:32,002 p=14107 u=kinma13 |  changed: [10.55.32.166 -> localhost]
+2018-03-02 12:19:32,003 p=14107 u=kinma13 |  changed: [10.55.32.46 -> localhost]
+2018-03-02 12:19:32,554 p=14107 u=kinma13 |  changed: [10.55.32.36 -> localhost]
+2018-03-02 12:19:33,120 p=14107 u=kinma13 |  fatal: [10.55.32.109 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:33,890 p=14107 u=kinma13 |  fatal: [10.55.33.194 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9012_prod does not exist"}
+2018-03-02 12:19:34,631 p=14107 u=kinma13 |  changed: [10.55.32.22 -> localhost]
+2018-03-02 12:19:35,295 p=14107 u=kinma13 |  fatal: [10.55.33.116 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9129_prod does not exist"}
+2018-03-02 12:19:35,387 p=14107 u=kinma13 |  changed: [10.55.33.203 -> localhost]
+2018-03-02 12:19:35,588 p=14107 u=kinma13 |  changed: [10.55.33.191 -> localhost]
+2018-03-02 12:19:35,588 p=14107 u=kinma13 |  changed: [10.55.33.198 -> localhost]
+2018-03-02 12:19:36,083 p=14107 u=kinma13 |  changed: [10.55.33.216 -> localhost]
+2018-03-02 12:19:36,084 p=14107 u=kinma13 |  changed: [10.55.32.94 -> localhost]
+2018-03-02 12:19:36,260 p=14107 u=kinma13 |  changed: [10.55.33.224 -> localhost]
+2018-03-02 12:19:38,413 p=14107 u=kinma13 |  fatal: [10.55.32.47 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:19:39,238 p=14107 u=kinma13 |  changed: [10.55.33.200 -> localhost]
+2018-03-02 12:19:39,664 p=14107 u=kinma13 |  fatal: [10.55.33.161 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:19:40,777 p=14107 u=kinma13 |  changed: [10.55.33.188 -> localhost]
+2018-03-02 12:19:41,546 p=14107 u=kinma13 |  changed: [10.55.33.186 -> localhost]
+2018-03-02 12:19:42,028 p=14107 u=kinma13 |  changed: [10.55.33.172 -> localhost]
+2018-03-02 12:19:42,485 p=14107 u=kinma13 |  fatal: [10.55.32.100 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:43,414 p=14107 u=kinma13 |  changed: [10.55.32.110 -> localhost]
+2018-03-02 12:19:44,506 p=14107 u=kinma13 |  fatal: [10.55.33.168 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:19:45,998 p=14107 u=kinma13 |  fatal: [10.55.33.215 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:46,089 p=14107 u=kinma13 |  changed: [10.55.33.177 -> localhost]
+2018-03-02 12:19:47,141 p=14107 u=kinma13 |  fatal: [10.55.33.84 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9158_prod does not exist"}
+2018-03-02 12:19:47,632 p=14107 u=kinma13 |  changed: [10.55.32.40 -> localhost]
+2018-03-02 12:19:48,727 p=14107 u=kinma13 |  changed: [10.55.32.77 -> localhost]
+2018-03-02 12:19:49,976 p=14107 u=kinma13 |  changed: [10.55.33.223 -> localhost]
+2018-03-02 12:19:49,977 p=14107 u=kinma13 |  changed: [10.55.33.208 -> localhost]
+2018-03-02 12:19:50,644 p=14107 u=kinma13 |  fatal: [10.55.33.128 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9135_prod does not exist"}
+2018-03-02 12:19:50,977 p=14107 u=kinma13 |  fatal: [10.55.33.147 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:19:53,088 p=14107 u=kinma13 |  changed: [10.55.33.204 -> localhost]
+2018-03-02 12:19:54,592 p=14107 u=kinma13 |  fatal: [10.55.33.13 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9176_prod does not exist"}
+2018-03-02 12:19:55,667 p=14107 u=kinma13 |  fatal: [10.55.33.60 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9172_prod does not exist"}
+2018-03-02 12:19:55,668 p=14107 u=kinma13 |  changed: [10.55.33.218 -> localhost]
+2018-03-02 12:19:55,951 p=14107 u=kinma13 |  changed: [10.55.33.163 -> localhost]
+2018-03-02 12:19:56,429 p=14107 u=kinma13 |  changed: [10.55.33.166 -> localhost]
+2018-03-02 12:19:56,868 p=14107 u=kinma13 |  fatal: [10.55.33.59 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9172_prod does not exist"}
+2018-03-02 12:19:57,255 p=14107 u=kinma13 |  changed: [10.55.33.165 -> localhost]
+2018-03-02 12:19:59,165 p=14107 u=kinma13 |  changed: [10.55.33.178 -> localhost]
+2018-03-02 12:19:59,266 p=14107 u=kinma13 |  fatal: [10.55.33.129 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9135_prod does not exist"}
+2018-03-02 12:19:59,345 p=14107 u=kinma13 |  fatal: [10.55.33.180 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:19:59,606 p=14107 u=kinma13 |  changed: [10.55.33.151 -> localhost]
+2018-03-02 12:19:59,607 p=14107 u=kinma13 |  changed: [10.55.32.39 -> localhost]
+2018-03-02 12:20:00,379 p=14107 u=kinma13 |  changed: [10.55.32.82 -> localhost]
+2018-03-02 12:20:02,211 p=14107 u=kinma13 |  fatal: [10.55.33.81 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:20:04,807 p=14107 u=kinma13 |  fatal: [10.55.33.171 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9112_prod does not exist"}
+2018-03-02 12:20:05,619 p=14107 u=kinma13 |  changed: [10.55.33.145 -> localhost]
+2018-03-02 12:20:06,417 p=14107 u=kinma13 |  changed: [10.55.32.55 -> localhost]
+2018-03-02 12:20:07,645 p=14107 u=kinma13 |  fatal: [10.55.32.198 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:20:09,345 p=14107 u=kinma13 |  changed: [10.55.33.150 -> localhost]
+2018-03-02 12:20:09,767 p=14107 u=kinma13 |  changed: [10.55.33.164 -> localhost]
+2018-03-02 12:20:10,694 p=14107 u=kinma13 |  changed: [10.55.33.214 -> localhost]
+2018-03-02 12:20:14,482 p=14107 u=kinma13 |  fatal: [10.55.33.57 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9187_prod does not exist"}
+2018-03-02 12:20:16,404 p=14107 u=kinma13 |  fatal: [10.55.33.17 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9174_prod does not exist"}
+2018-03-02 12:20:16,688 p=14107 u=kinma13 |  changed: [10.55.32.116 -> localhost]
+2018-03-02 12:20:16,729 p=14107 u=kinma13 |  changed: [10.55.33.144 -> localhost]
+2018-03-02 12:20:17,570 p=14107 u=kinma13 |  fatal: [10.55.33.20 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9203_prod does not exist"}
+2018-03-02 12:20:17,797 p=14107 u=kinma13 |  fatal: [10.55.33.64 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9170_prod does not exist"}
+2018-03-02 12:20:17,990 p=14107 u=kinma13 |  changed: [10.55.33.141 -> localhost]
+2018-03-02 12:20:18,479 p=14107 u=kinma13 |  fatal: [10.55.33.86 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:20:18,854 p=14107 u=kinma13 |  changed: [10.55.33.138 -> localhost]
+2018-03-02 12:20:19,373 p=14107 u=kinma13 |  fatal: [10.55.33.55 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:20:19,685 p=14107 u=kinma13 |  fatal: [10.55.33.162 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:20:19,686 p=14107 u=kinma13 |  fatal: [10.55.33.140 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:20:21,608 p=14107 u=kinma13 |  fatal: [10.55.33.14 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9176_prod does not exist"}
+2018-03-02 12:20:21,765 p=14107 u=kinma13 |  changed: [10.55.33.143 -> localhost]
+2018-03-02 12:20:22,082 p=14107 u=kinma13 |  fatal: [10.55.33.80 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:20:22,993 p=14107 u=kinma13 |  changed: [10.55.33.210 -> localhost]
+2018-03-02 12:20:22,994 p=14107 u=kinma13 |  fatal: [10.55.33.79 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:20:24,749 p=14107 u=kinma13 |  changed: [10.55.33.54 -> localhost]
+2018-03-02 12:20:24,750 p=14107 u=kinma13 |  fatal: [10.55.33.104 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:20:26,673 p=14107 u=kinma13 |  fatal: [10.55.33.5 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9214_prod does not exist"}
+2018-03-02 12:20:27,699 p=14107 u=kinma13 |  fatal: [10.55.33.65 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:20:28,052 p=14107 u=kinma13 |  fatal: [10.55.33.87 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:20:28,596 p=14107 u=kinma13 |  changed: [10.55.33.139 -> localhost]
+2018-03-02 12:20:29,102 p=14107 u=kinma13 |  changed: [10.55.33.149 -> localhost]
+2018-03-02 12:20:29,358 p=14107 u=kinma13 |  fatal: [10.55.33.125 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:20:30,684 p=14107 u=kinma13 |  changed: [10.55.33.135 -> localhost]
+2018-03-02 12:20:30,955 p=14107 u=kinma13 |  fatal: [10.55.33.7 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9212_prod does not exist"}
+2018-03-02 12:20:31,459 p=14107 u=kinma13 |  fatal: [10.55.32.251 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9217_prod does not exist"}
+2018-03-02 12:20:32,310 p=14107 u=kinma13 |  changed: [10.55.33.120 -> localhost]
+2018-03-02 12:20:32,599 p=14107 u=kinma13 |  changed: [10.55.33.112 -> localhost]
+2018-03-02 12:20:34,662 p=14107 u=kinma13 |  changed: [10.55.33.181 -> localhost]
+2018-03-02 12:20:34,711 p=14107 u=kinma13 |  changed: [10.55.33.123 -> localhost]
+2018-03-02 12:20:35,370 p=14107 u=kinma13 |  fatal: [10.55.33.44 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:20:35,422 p=14107 u=kinma13 |  fatal: [10.55.32.254 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9215_prod does not exist"}
+2018-03-02 12:20:35,451 p=14107 u=kinma13 |  changed: [10.55.33.137 -> localhost]
+2018-03-02 12:20:35,597 p=14107 u=kinma13 |  fatal: [10.55.32.235 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9225_prod does not exist"}
+2018-03-02 12:20:36,053 p=14107 u=kinma13 |  changed: [10.55.33.124 -> localhost]
+2018-03-02 12:20:36,380 p=14107 u=kinma13 |  changed: [10.55.33.160 -> localhost]
+2018-03-02 12:20:36,381 p=14107 u=kinma13 |  changed: [10.55.33.148 -> localhost]
+2018-03-02 12:20:36,498 p=14107 u=kinma13 |  fatal: [10.55.32.253 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9215_prod does not exist"}
+2018-03-02 12:20:37,014 p=14107 u=kinma13 |  fatal: [10.55.33.23 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9201_prod does not exist"}
+2018-03-02 12:20:37,219 p=14107 u=kinma13 |  fatal: [10.55.33.142 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:20:37,277 p=14107 u=kinma13 |  changed: [10.55.33.192 -> localhost]
+2018-03-02 12:20:37,498 p=14107 u=kinma13 |  changed: [10.55.33.122 -> localhost]
+2018-03-02 12:20:37,557 p=14107 u=kinma13 |  changed: [10.55.33.225 -> localhost]
+2018-03-02 12:20:37,897 p=14107 u=kinma13 |  changed: [10.55.33.133 -> localhost]
+2018-03-02 12:20:38,044 p=14107 u=kinma13 |  changed: [10.55.33.68 -> localhost]
+2018-03-02 12:20:38,331 p=14107 u=kinma13 |  changed: [10.55.33.109 -> localhost]
+2018-03-02 12:20:38,931 p=14107 u=kinma13 |  fatal: [10.55.32.76 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:20:39,634 p=14107 u=kinma13 |  changed: [10.55.33.119 -> localhost]
+2018-03-02 12:20:39,750 p=14107 u=kinma13 |  fatal: [10.55.32.232 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9227_prod does not exist"}
+2018-03-02 12:20:40,662 p=14107 u=kinma13 |  changed: [10.55.33.121 -> localhost]
+2018-03-02 12:20:40,673 p=14107 u=kinma13 |  fatal: [10.55.33.8 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9211_prod does not exist"}
+2018-03-02 12:20:41,060 p=14107 u=kinma13 |  fatal: [10.55.32.231 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9227_prod does not exist"}
+2018-03-02 12:20:41,329 p=14107 u=kinma13 |  fatal: [10.55.33.19 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9203_prod does not exist"}
+2018-03-02 12:20:41,359 p=14107 u=kinma13 |  changed: [10.55.33.69 -> localhost]
+2018-03-02 12:20:41,723 p=14107 u=kinma13 |  fatal: [10.55.33.67 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9168_prod does not exist"}
+2018-03-02 12:20:41,893 p=14107 u=kinma13 |  fatal: [10.55.33.167 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:20:42,027 p=14107 u=kinma13 |  fatal: [10.55.32.227 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9229_prod does not exist"}
+2018-03-02 12:20:42,325 p=14107 u=kinma13 |  changed: [10.55.33.89 -> localhost]
+2018-03-02 12:20:42,339 p=14107 u=kinma13 |  changed: [10.55.33.90 -> localhost]
+2018-03-02 12:20:42,780 p=14107 u=kinma13 |  fatal: [10.55.32.173 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:20:42,968 p=14107 u=kinma13 |  fatal: [10.55.32.229 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9228_prod does not exist"}
+2018-03-02 12:20:43,693 p=14107 u=kinma13 |  changed: [10.55.33.88 -> localhost]
+2018-03-02 12:20:44,676 p=14107 u=kinma13 |  fatal: [10.55.32.236 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9225_prod does not exist"}
+2018-03-02 12:20:44,858 p=14107 u=kinma13 |  changed: [10.55.33.126 -> localhost]
+2018-03-02 12:20:45,099 p=14107 u=kinma13 |  changed: [10.55.33.134 -> localhost]
+2018-03-02 12:20:45,106 p=14107 u=kinma13 |  changed: [10.55.33.99 -> localhost]
+2018-03-02 12:20:45,445 p=14107 u=kinma13 |  changed: [10.55.33.107 -> localhost]
+2018-03-02 12:20:46,325 p=14107 u=kinma13 |  fatal: [10.55.32.239 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9223_prod does not exist"}
+2018-03-02 12:20:46,325 p=14107 u=kinma13 |  fatal: [10.55.33.46 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:20:47,011 p=14107 u=kinma13 |  changed: [10.55.33.77 -> localhost]
+2018-03-02 12:20:47,977 p=14107 u=kinma13 |  changed: [10.55.33.190 -> localhost]
+2018-03-02 12:20:48,033 p=14107 u=kinma13 |  changed: [10.55.32.167 -> localhost]
+2018-03-02 12:20:48,229 p=14107 u=kinma13 |  changed: [10.55.33.131 -> localhost]
+2018-03-02 12:20:50,831 p=14107 u=kinma13 |  fatal: [10.55.32.211 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9236_prod does not exist"}
+2018-03-02 12:20:51,667 p=14107 u=kinma13 |  fatal: [10.55.32.208 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9238_prod does not exist"}
+2018-03-02 12:20:51,687 p=14107 u=kinma13 |  changed: [10.55.33.101 -> localhost]
+2018-03-02 12:20:52,198 p=14107 u=kinma13 |  changed: [10.55.33.118 -> localhost]
+2018-03-02 12:20:52,634 p=14107 u=kinma13 |  fatal: [10.55.32.203 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9240_prod does not exist"}
+2018-03-02 12:20:53,207 p=14107 u=kinma13 |  fatal: [10.55.32.205 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9239_prod does not exist"}
+2018-03-02 12:20:53,481 p=14107 u=kinma13 |  changed: [10.55.33.73 -> localhost]
+2018-03-02 12:20:54,127 p=14107 u=kinma13 |  changed: [10.55.33.72 -> localhost]
+2018-03-02 12:20:54,165 p=14107 u=kinma13 |  fatal: [10.55.32.207 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9238_prod does not exist"}
+2018-03-02 12:20:54,341 p=14107 u=kinma13 |  fatal: [10.55.32.200 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9242_prod does not exist"}
+2018-03-02 12:20:55,090 p=14107 u=kinma13 |  changed: [10.55.33.221 -> localhost]
+2018-03-02 12:20:55,102 p=14107 u=kinma13 |  changed: [10.55.33.100 -> localhost]
+2018-03-02 12:20:55,792 p=14107 u=kinma13 |  fatal: [10.55.32.252 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9216_prod does not exist"}
+2018-03-02 12:20:56,093 p=14107 u=kinma13 |  fatal: [10.55.32.228 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9229_prod does not exist"}
+2018-03-02 12:20:56,102 p=14107 u=kinma13 |  changed: [10.55.33.74 -> localhost]
+2018-03-02 12:20:56,264 p=14107 u=kinma13 |  changed: [10.55.33.102 -> localhost]
+2018-03-02 12:20:56,282 p=14107 u=kinma13 |  fatal: [10.55.32.204 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9240_prod does not exist"}
+2018-03-02 12:20:56,845 p=14107 u=kinma13 |  fatal: [10.55.32.225 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:20:57,640 p=14107 u=kinma13 |  fatal: [10.55.33.127 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:20:58,185 p=14107 u=kinma13 |  fatal: [10.55.33.35 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9194_prod does not exist"}
+2018-03-02 12:20:59,359 p=14107 u=kinma13 |  changed: [10.55.33.207 -> localhost]
+2018-03-02 12:21:00,529 p=14107 u=kinma13 |  changed: [10.55.33.16 -> localhost]
+2018-03-02 12:21:01,130 p=14107 u=kinma13 |  changed: [10.55.33.47 -> localhost]
+2018-03-02 12:21:01,157 p=14107 u=kinma13 |  changed: [10.55.33.78 -> localhost]
+2018-03-02 12:21:01,400 p=14107 u=kinma13 |  changed: [10.55.33.71 -> localhost]
+2018-03-02 12:21:01,406 p=14107 u=kinma13 |  changed: [10.55.33.42 -> localhost]
+2018-03-02 12:21:01,542 p=14107 u=kinma13 |  fatal: [10.55.32.201 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9241_prod does not exist"}
+2018-03-02 12:21:01,562 p=14107 u=kinma13 |  fatal: [10.55.32.210 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9237_prod does not exist"}
+2018-03-02 12:21:01,649 p=14107 u=kinma13 |  fatal: [10.55.32.209 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9237_prod does not exist"}
+2018-03-02 12:21:01,779 p=14107 u=kinma13 |  fatal: [10.55.32.202 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9241_prod does not exist"}
+2018-03-02 12:21:02,651 p=14107 u=kinma13 |  changed: [10.55.33.106 -> localhost]
+2018-03-02 12:21:02,657 p=14107 u=kinma13 |  changed: [10.55.33.61 -> localhost]
+2018-03-02 12:21:03,977 p=14107 u=kinma13 |  changed: [10.55.33.105 -> localhost]
+2018-03-02 12:21:03,985 p=14107 u=kinma13 |  changed: [10.55.33.76 -> localhost]
+2018-03-02 12:21:04,286 p=14107 u=kinma13 |  fatal: [10.55.32.197 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9243_prod does not exist"}
+2018-03-02 12:21:04,670 p=14107 u=kinma13 |  fatal: [10.55.32.152 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9250_prod does not exist"}
+2018-03-02 12:21:06,030 p=14107 u=kinma13 |  fatal: [10.55.32.154 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9249_prod does not exist"}
+2018-03-02 12:21:06,281 p=14107 u=kinma13 |  fatal: [10.55.32.230 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9228_prod does not exist"}
+2018-03-02 12:21:06,369 p=14107 u=kinma13 |  fatal: [10.55.32.206 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9239_prod does not exist"}
+2018-03-02 12:21:06,778 p=14107 u=kinma13 |  fatal: [10.55.33.30 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:21:06,815 p=14107 u=kinma13 |  changed: [10.55.33.70 -> localhost]
+2018-03-02 12:21:06,950 p=14107 u=kinma13 |  changed: [10.55.33.32 -> localhost]
+2018-03-02 12:21:07,035 p=14107 u=kinma13 |  fatal: [10.55.32.156 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9248_prod does not exist"}
+2018-03-02 12:21:07,791 p=14107 u=kinma13 |  changed: [10.55.33.39 -> localhost]
+2018-03-02 12:21:07,866 p=14107 u=kinma13 |  changed: [10.55.33.41 -> localhost]
+2018-03-02 12:21:08,088 p=14107 u=kinma13 |  fatal: [10.55.32.155 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9249_prod does not exist"}
+2018-03-02 12:21:08,927 p=14107 u=kinma13 |  fatal: [10.55.33.62 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:21:08,959 p=14107 u=kinma13 |  fatal: [10.55.33.10 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: <urlopen error timed out>"}
+2018-03-02 12:21:09,271 p=14107 u=kinma13 |  fatal: [10.55.32.240 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9223_prod does not exist"}
+2018-03-02 12:21:09,639 p=14107 u=kinma13 |  fatal: [10.55.32.159 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9247_prod does not exist"}
+2018-03-02 12:21:12,221 p=14107 u=kinma13 |  changed: [10.55.33.26 -> localhost]
+2018-03-02 12:21:12,242 p=14107 u=kinma13 |  changed: [10.55.33.103 -> localhost]
+2018-03-02 12:21:12,459 p=14107 u=kinma13 |  fatal: [10.55.32.158 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9247_prod does not exist"}
+2018-03-02 12:21:12,467 p=14107 u=kinma13 |  fatal: [10.55.33.83 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9158_prod does not exist"}
+2018-03-02 12:21:13,094 p=14107 u=kinma13 |  changed: [10.55.33.40 -> localhost]
+2018-03-02 12:21:13,769 p=14107 u=kinma13 |  fatal: [10.55.32.86 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9260_prod does not exist"}
+2018-03-02 12:21:14,005 p=14107 u=kinma13 |  changed: [10.55.33.98 -> localhost]
+2018-03-02 12:21:14,082 p=14107 u=kinma13 |  changed: [10.55.33.130 -> localhost]
+2018-03-02 12:21:14,297 p=14107 u=kinma13 |  changed: [10.55.33.82 -> localhost]
+2018-03-02 12:21:14,549 p=14107 u=kinma13 |  fatal: [10.55.32.164 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmbi9000_prod does not exist"}
+2018-03-02 12:21:14,800 p=14107 u=kinma13 |  changed: [10.55.33.34 -> localhost]
+2018-03-02 12:21:15,244 p=14107 u=kinma13 |  changed: [10.55.33.146 -> localhost]
+2018-03-02 12:21:15,429 p=14107 u=kinma13 |  changed: [10.55.33.11 -> localhost]
+2018-03-02 12:21:15,483 p=14107 u=kinma13 |  fatal: [10.55.33.91 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt103_prod does not exist"}
+2018-03-02 12:21:15,488 p=14107 u=kinma13 |  fatal: [10.55.33.97 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt123_prod does not exist"}
+2018-03-02 12:21:15,586 p=14107 u=kinma13 |  changed: [10.55.33.33 -> localhost]
+2018-03-02 12:21:15,875 p=14107 u=kinma13 |  changed: [10.55.33.27 -> localhost]
+2018-03-02 12:21:15,926 p=14107 u=kinma13 |  changed: [10.55.33.51 -> localhost]
+2018-03-02 12:21:16,374 p=14107 u=kinma13 |  changed: [10.55.33.159 -> localhost]
+2018-03-02 12:21:16,378 p=14107 u=kinma13 |  fatal: [10.55.33.93 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt103_prod does not exist"}
+2018-03-02 12:21:16,652 p=14107 u=kinma13 |  changed: [10.55.33.37 -> localhost]
+2018-03-02 12:21:16,807 p=14107 u=kinma13 |  changed: [10.55.33.31 -> localhost]
+2018-03-02 12:21:16,883 p=14107 u=kinma13 |  changed: [10.55.33.18 -> localhost]
+2018-03-02 12:21:17,116 p=14107 u=kinma13 |  changed: [10.55.33.9 -> localhost]
+2018-03-02 12:21:17,358 p=14107 u=kinma13 |  fatal: [10.55.33.36 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9194_prod does not exist"}
+2018-03-02 12:21:17,757 p=14107 u=kinma13 |  fatal: [10.55.32.219 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt402_prod does not exist"}
+2018-03-02 12:21:17,793 p=14107 u=kinma13 |  changed: [10.55.33.85 -> localhost]
+2018-03-02 12:21:17,996 p=14107 u=kinma13 |  changed: [10.55.33.58 -> localhost]
+2018-03-02 12:21:18,187 p=14107 u=kinma13 |  changed: [10.55.33.45 -> localhost]
+2018-03-02 12:21:18,552 p=14107 u=kinma13 |  changed: [10.55.33.43 -> localhost]
+2018-03-02 12:21:18,705 p=14107 u=kinma13 |  fatal: [10.55.32.165 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmbi9000_prod does not exist"}
+2018-03-02 12:21:19,118 p=14107 u=kinma13 |  changed: [10.55.32.250 -> localhost]
+2018-03-02 12:21:19,166 p=14107 u=kinma13 |  changed: [10.55.33.25 -> localhost]
+2018-03-02 12:21:19,346 p=14107 u=kinma13 |  changed: [10.55.33.66 -> localhost]
+2018-03-02 12:21:19,473 p=14107 u=kinma13 |  changed: [10.55.33.108 -> localhost]
+2018-03-02 12:21:19,629 p=14107 u=kinma13 |  changed: [10.55.33.6 -> localhost]
+2018-03-02 12:21:19,759 p=14107 u=kinma13 |  changed: [10.55.33.28 -> localhost]
+2018-03-02 12:21:19,935 p=14107 u=kinma13 |  changed: [10.55.32.242 -> localhost]
+2018-03-02 12:21:20,028 p=14107 u=kinma13 |  changed: [10.55.33.49 -> localhost]
+2018-03-02 12:21:20,118 p=14107 u=kinma13 |  changed: [10.55.33.52 -> localhost]
+2018-03-02 12:21:20,179 p=14107 u=kinma13 |  fatal: [10.55.33.92 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt103_prod does not exist"}
+2018-03-02 12:21:20,313 p=14107 u=kinma13 |  changed: [10.55.32.234 -> localhost]
+2018-03-02 12:21:20,403 p=14107 u=kinma13 |  fatal: [10.55.32.153 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9250_prod does not exist"}
+2018-03-02 12:21:20,404 p=14107 u=kinma13 |  changed: [10.55.33.48 -> localhost]
+2018-03-02 12:21:20,473 p=14107 u=kinma13 |  changed: [10.55.33.22 -> localhost]
+2018-03-02 12:21:20,545 p=14107 u=kinma13 |  changed: [10.55.32.224 -> localhost]
+2018-03-02 12:21:20,668 p=14107 u=kinma13 |  changed: [10.55.33.2 -> localhost]
+2018-03-02 12:21:20,758 p=14107 u=kinma13 |  changed: [10.55.32.247 -> localhost]
+2018-03-02 12:21:20,896 p=14107 u=kinma13 |  changed: [10.55.33.38 -> localhost]
+2018-03-02 12:21:21,081 p=14107 u=kinma13 |  changed: [10.55.33.3 -> localhost]
+2018-03-02 12:21:21,143 p=14107 u=kinma13 |  fatal: [10.55.33.75 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:21:21,360 p=14107 u=kinma13 |  fatal: [10.55.32.157 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9248_prod does not exist"}
+2018-03-02 12:21:21,472 p=14107 u=kinma13 |  fatal: [10.55.33.29 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:21:21,516 p=14107 u=kinma13 |  fatal: [10.55.33.12 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error timed out>"}
+2018-03-02 12:21:21,529 p=14107 u=kinma13 |  changed: [10.55.32.221 -> localhost]
+2018-03-02 12:21:21,537 p=14107 u=kinma13 |  changed: [10.55.32.244 -> localhost]
+2018-03-02 12:21:21,809 p=14107 u=kinma13 |  changed: [10.55.32.245 -> localhost]
+2018-03-02 12:21:22,334 p=14107 u=kinma13 |  changed: [10.55.32.241 -> localhost]
+2018-03-02 12:21:22,495 p=14107 u=kinma13 |  changed: [10.55.33.24 -> localhost]
+2018-03-02 12:21:22,611 p=14107 u=kinma13 |  changed: [10.55.32.255 -> localhost]
+2018-03-02 12:21:22,683 p=14107 u=kinma13 |  changed: [10.55.32.226 -> localhost]
+2018-03-02 12:21:22,803 p=14107 u=kinma13 |  changed: [10.55.33.1 -> localhost]
+2018-03-02 12:21:22,984 p=14107 u=kinma13 |  changed: [10.55.32.222 -> localhost]
+2018-03-02 12:21:22,984 p=14107 u=kinma13 |  changed: [10.55.32.217 -> localhost]
+2018-03-02 12:21:23,037 p=14107 u=kinma13 |  changed: [10.55.33.56 -> localhost]
+2018-03-02 12:21:23,206 p=14107 u=kinma13 |  changed: [10.55.33.21 -> localhost]
+2018-03-02 12:21:23,499 p=14107 u=kinma13 |  changed: [10.55.32.215 -> localhost]
+2018-03-02 12:21:23,590 p=14107 u=kinma13 |  changed: [10.55.32.237 -> localhost]
+2018-03-02 12:21:24,050 p=14107 u=kinma13 |  changed: [10.55.32.248 -> localhost]
+2018-03-02 12:21:24,324 p=14107 u=kinma13 |  changed: [10.55.32.246 -> localhost]
+2018-03-02 12:21:24,329 p=14107 u=kinma13 |  changed: [10.55.32.213 -> localhost]
+2018-03-02 12:21:24,336 p=14107 u=kinma13 |  changed: [10.55.33.15 -> localhost]
+2018-03-02 12:21:24,681 p=14107 u=kinma13 |  changed: [10.55.32.160 -> localhost]
+2018-03-02 12:21:24,737 p=14107 u=kinma13 |  changed: [10.55.33.111 -> localhost]
+2018-03-02 12:21:24,972 p=14107 u=kinma13 |  changed: [10.55.32.150 -> localhost]
+2018-03-02 12:21:25,041 p=14107 u=kinma13 |  changed: [10.55.32.91 -> localhost]
+2018-03-02 12:21:25,052 p=14107 u=kinma13 |  changed: [10.55.32.146 -> localhost]
+2018-03-02 12:21:25,210 p=14107 u=kinma13 |  changed: [10.55.33.4 -> localhost]
+2018-03-02 12:21:25,235 p=14107 u=kinma13 |  changed: [10.55.32.90 -> localhost]
+2018-03-02 12:21:25,266 p=14107 u=kinma13 |  changed: [10.55.32.214 -> localhost]
+2018-03-02 12:21:25,493 p=14107 u=kinma13 |  changed: [10.55.32.161 -> localhost]
+2018-03-02 12:21:25,509 p=14107 u=kinma13 |  changed: [10.55.32.148 -> localhost]
+2018-03-02 12:21:25,540 p=14107 u=kinma13 |  changed: [10.55.32.145 -> localhost]
+2018-03-02 12:21:25,797 p=14107 u=kinma13 |  changed: [10.55.32.149 -> localhost]
+2018-03-02 12:21:26,025 p=14107 u=kinma13 |  fatal: [10.55.33.53 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9206_prod does not exist"}
+2018-03-02 12:21:26,085 p=14107 u=kinma13 |  changed: [10.55.32.44 -> localhost]
+2018-03-02 12:21:26,085 p=14107 u=kinma13 |  changed: [10.55.33.50 -> localhost]
+2018-03-02 12:21:26,088 p=14107 u=kinma13 |  changed: [10.55.32.88 -> localhost]
+2018-03-02 12:21:26,344 p=14107 u=kinma13 |  changed: [10.55.32.243 -> localhost]
+2018-03-02 12:21:26,357 p=14107 u=kinma13 |  changed: [10.55.32.162 -> localhost]
+2018-03-02 12:21:26,361 p=14107 u=kinma13 |  changed: [10.55.33.96 -> localhost]
+2018-03-02 12:21:26,368 p=14107 u=kinma13 |  changed: [10.55.33.185 -> localhost]
+2018-03-02 12:21:26,370 p=14107 u=kinma13 |  changed: [10.55.32.220 -> localhost]
+2018-03-02 12:21:26,372 p=14107 u=kinma13 |  changed: [10.55.32.32 -> localhost]
+2018-03-02 12:21:26,579 p=14107 u=kinma13 |  changed: [10.55.32.69 -> localhost]
+2018-03-02 12:21:26,582 p=14107 u=kinma13 |  changed: [10.55.32.223 -> localhost]
+2018-03-02 12:21:26,586 p=14107 u=kinma13 |  changed: [10.55.33.117 -> localhost]
+2018-03-02 12:21:26,586 p=14107 u=kinma13 |  changed: [10.55.32.68 -> localhost]
+2018-03-02 12:21:26,597 p=14107 u=kinma13 |  changed: [10.55.32.147 -> localhost]
+2018-03-02 12:21:26,602 p=14107 u=kinma13 |  changed: [10.55.32.218 -> localhost]
+2018-03-02 12:21:26,722 p=14107 u=kinma13 |  fatal: [10.55.32.199 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9242_prod does not exist"}
+2018-03-02 12:21:26,783 p=14107 u=kinma13 |  changed: [10.55.32.163 -> localhost]
+2018-03-02 12:21:26,790 p=14107 u=kinma13 |  changed: [10.55.32.238 -> localhost]
+2018-03-02 12:21:26,794 p=14107 u=kinma13 |  changed: [10.55.33.95 -> localhost]
+2018-03-02 12:21:26,949 p=14107 u=kinma13 |  changed: [10.55.32.87 -> localhost]
+2018-03-02 12:21:27,007 p=14107 u=kinma13 |  changed: [10.55.32.89 -> localhost]
+2018-03-02 12:21:27,083 p=14107 u=kinma13 |  changed: [10.55.32.233 -> localhost]
+2018-03-02 12:21:27,089 p=14107 u=kinma13 |  changed: [10.55.33.184 -> localhost]
+2018-03-02 12:21:27,094 p=14107 u=kinma13 |  changed: [10.55.33.94 -> localhost]
+2018-03-02 12:21:27,103 p=14107 u=kinma13 |  changed: [10.55.32.92 -> localhost]
+2018-03-02 12:21:27,120 p=14107 u=kinma13 |  changed: [10.55.32.143 -> localhost]
+2018-03-02 12:21:27,164 p=14107 u=kinma13 |  changed: [10.55.32.249 -> localhost]
+2018-03-02 12:21:27,221 p=14107 u=kinma13 |  changed: [10.55.32.151 -> localhost]
+2018-03-02 12:21:27,281 p=14107 u=kinma13 |  fatal: [10.55.32.212 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9236_prod does not exist"}
+2018-03-02 12:21:27,339 p=14107 u=kinma13 |  changed: [10.55.32.216 -> localhost]
+2018-03-02 12:21:27,490 p=14107 u=kinma13 |  changed: [10.55.32.43 -> localhost]
+2018-03-02 12:21:27,561 p=14107 u=kinma13 |  PLAY [delmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:21:27,561 p=14107 u=kinma13 |  skipping: no hosts matched
+2018-03-02 12:21:27,563 p=14107 u=kinma13 |  PLAY [delmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:21:27,563 p=14107 u=kinma13 |  skipping: no hosts matched
+2018-03-02 12:21:27,565 p=14107 u=kinma13 |  PLAY [delmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:21:27,565 p=14107 u=kinma13 |  skipping: no hosts matched
+2018-03-02 12:21:27,566 p=14107 u=kinma13 |  PLAY [delmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:21:27,566 p=14107 u=kinma13 |  skipping: no hosts matched
+2018-03-02 12:21:27,567 p=14107 u=kinma13 |  	to retry, use: --limit @/usr/share/ansible/f5/site.retry
+
+2018-03-02 12:21:27,568 p=14107 u=kinma13 |  PLAY RECAP ***********************************************************************************************************************************************************************************************************************************
+2018-03-02 12:21:27,568 p=14107 u=kinma13 |  10.55.32.100               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,568 p=14107 u=kinma13 |  10.55.32.101               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,568 p=14107 u=kinma13 |  10.55.32.102               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,568 p=14107 u=kinma13 |  10.55.32.103               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,568 p=14107 u=kinma13 |  10.55.32.104               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,569 p=14107 u=kinma13 |  10.55.32.105               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,569 p=14107 u=kinma13 |  10.55.32.106               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,569 p=14107 u=kinma13 |  10.55.32.107               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,569 p=14107 u=kinma13 |  10.55.32.108               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,569 p=14107 u=kinma13 |  10.55.32.109               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,569 p=14107 u=kinma13 |  10.55.32.110               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,569 p=14107 u=kinma13 |  10.55.32.111               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,569 p=14107 u=kinma13 |  10.55.32.112               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,569 p=14107 u=kinma13 |  10.55.32.113               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,570 p=14107 u=kinma13 |  10.55.32.114               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,570 p=14107 u=kinma13 |  10.55.32.115               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,570 p=14107 u=kinma13 |  10.55.32.116               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,570 p=14107 u=kinma13 |  10.55.32.117               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,570 p=14107 u=kinma13 |  10.55.32.118               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,570 p=14107 u=kinma13 |  10.55.32.119               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,570 p=14107 u=kinma13 |  10.55.32.120               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,570 p=14107 u=kinma13 |  10.55.32.121               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,570 p=14107 u=kinma13 |  10.55.32.122               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,571 p=14107 u=kinma13 |  10.55.32.123               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,571 p=14107 u=kinma13 |  10.55.32.124               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,571 p=14107 u=kinma13 |  10.55.32.125               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,571 p=14107 u=kinma13 |  10.55.32.126               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,571 p=14107 u=kinma13 |  10.55.32.127               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,571 p=14107 u=kinma13 |  10.55.32.128               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,571 p=14107 u=kinma13 |  10.55.32.129               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,571 p=14107 u=kinma13 |  10.55.32.130               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,571 p=14107 u=kinma13 |  10.55.32.131               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,572 p=14107 u=kinma13 |  10.55.32.132               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,572 p=14107 u=kinma13 |  10.55.32.133               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,572 p=14107 u=kinma13 |  10.55.32.134               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,572 p=14107 u=kinma13 |  10.55.32.135               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,572 p=14107 u=kinma13 |  10.55.32.136               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,572 p=14107 u=kinma13 |  10.55.32.137               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,572 p=14107 u=kinma13 |  10.55.32.138               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,572 p=14107 u=kinma13 |  10.55.32.139               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,572 p=14107 u=kinma13 |  10.55.32.140               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,573 p=14107 u=kinma13 |  10.55.32.141               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,573 p=14107 u=kinma13 |  10.55.32.142               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,573 p=14107 u=kinma13 |  10.55.32.143               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,573 p=14107 u=kinma13 |  10.55.32.144               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,573 p=14107 u=kinma13 |  10.55.32.145               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,573 p=14107 u=kinma13 |  10.55.32.146               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,573 p=14107 u=kinma13 |  10.55.32.147               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,573 p=14107 u=kinma13 |  10.55.32.148               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,573 p=14107 u=kinma13 |  10.55.32.149               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,574 p=14107 u=kinma13 |  10.55.32.150               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,574 p=14107 u=kinma13 |  10.55.32.151               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,574 p=14107 u=kinma13 |  10.55.32.152               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,574 p=14107 u=kinma13 |  10.55.32.153               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,574 p=14107 u=kinma13 |  10.55.32.154               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,574 p=14107 u=kinma13 |  10.55.32.155               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,574 p=14107 u=kinma13 |  10.55.32.156               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,574 p=14107 u=kinma13 |  10.55.32.157               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,575 p=14107 u=kinma13 |  10.55.32.158               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,575 p=14107 u=kinma13 |  10.55.32.159               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,575 p=14107 u=kinma13 |  10.55.32.160               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,575 p=14107 u=kinma13 |  10.55.32.161               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,575 p=14107 u=kinma13 |  10.55.32.162               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,575 p=14107 u=kinma13 |  10.55.32.163               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,575 p=14107 u=kinma13 |  10.55.32.164               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,575 p=14107 u=kinma13 |  10.55.32.165               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,575 p=14107 u=kinma13 |  10.55.32.166               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,576 p=14107 u=kinma13 |  10.55.32.167               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,576 p=14107 u=kinma13 |  10.55.32.168               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,576 p=14107 u=kinma13 |  10.55.32.169               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,576 p=14107 u=kinma13 |  10.55.32.170               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,576 p=14107 u=kinma13 |  10.55.32.171               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,576 p=14107 u=kinma13 |  10.55.32.172               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,576 p=14107 u=kinma13 |  10.55.32.173               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,576 p=14107 u=kinma13 |  10.55.32.174               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,576 p=14107 u=kinma13 |  10.55.32.175               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.176               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.177               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.178               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.179               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.180               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.181               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.182               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.183               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.184               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,577 p=14107 u=kinma13 |  10.55.32.185               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,578 p=14107 u=kinma13 |  10.55.32.186               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,578 p=14107 u=kinma13 |  10.55.32.187               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,578 p=14107 u=kinma13 |  10.55.32.188               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,578 p=14107 u=kinma13 |  10.55.32.189               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,578 p=14107 u=kinma13 |  10.55.32.190               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,578 p=14107 u=kinma13 |  10.55.32.191               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,578 p=14107 u=kinma13 |  10.55.32.192               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,578 p=14107 u=kinma13 |  10.55.32.193               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,578 p=14107 u=kinma13 |  10.55.32.194               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,579 p=14107 u=kinma13 |  10.55.32.195               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,579 p=14107 u=kinma13 |  10.55.32.196               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,579 p=14107 u=kinma13 |  10.55.32.197               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,579 p=14107 u=kinma13 |  10.55.32.198               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,579 p=14107 u=kinma13 |  10.55.32.199               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,579 p=14107 u=kinma13 |  10.55.32.200               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.201               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.202               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.203               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.204               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.205               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.206               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.207               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.208               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.209               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,580 p=14107 u=kinma13 |  10.55.32.210               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,581 p=14107 u=kinma13 |  10.55.32.211               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,581 p=14107 u=kinma13 |  10.55.32.212               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,581 p=14107 u=kinma13 |  10.55.32.213               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,581 p=14107 u=kinma13 |  10.55.32.214               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,581 p=14107 u=kinma13 |  10.55.32.215               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,581 p=14107 u=kinma13 |  10.55.32.216               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,581 p=14107 u=kinma13 |  10.55.32.217               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,581 p=14107 u=kinma13 |  10.55.32.218               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,581 p=14107 u=kinma13 |  10.55.32.219               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,582 p=14107 u=kinma13 |  10.55.32.22                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,582 p=14107 u=kinma13 |  10.55.32.220               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,582 p=14107 u=kinma13 |  10.55.32.221               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,582 p=14107 u=kinma13 |  10.55.32.222               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,582 p=14107 u=kinma13 |  10.55.32.223               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,582 p=14107 u=kinma13 |  10.55.32.224               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,582 p=14107 u=kinma13 |  10.55.32.225               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,582 p=14107 u=kinma13 |  10.55.32.226               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.227               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.228               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.229               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.23                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.230               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.231               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.232               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.233               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.234               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,583 p=14107 u=kinma13 |  10.55.32.235               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,584 p=14107 u=kinma13 |  10.55.32.236               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,584 p=14107 u=kinma13 |  10.55.32.237               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,584 p=14107 u=kinma13 |  10.55.32.238               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,584 p=14107 u=kinma13 |  10.55.32.239               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,584 p=14107 u=kinma13 |  10.55.32.24                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,584 p=14107 u=kinma13 |  10.55.32.240               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,584 p=14107 u=kinma13 |  10.55.32.241               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,584 p=14107 u=kinma13 |  10.55.32.242               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,584 p=14107 u=kinma13 |  10.55.32.243               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,585 p=14107 u=kinma13 |  10.55.32.244               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,585 p=14107 u=kinma13 |  10.55.32.245               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,585 p=14107 u=kinma13 |  10.55.32.246               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,585 p=14107 u=kinma13 |  10.55.32.247               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,585 p=14107 u=kinma13 |  10.55.32.248               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,585 p=14107 u=kinma13 |  10.55.32.249               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,585 p=14107 u=kinma13 |  10.55.32.25                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,585 p=14107 u=kinma13 |  10.55.32.250               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,586 p=14107 u=kinma13 |  10.55.32.251               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,586 p=14107 u=kinma13 |  10.55.32.252               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,586 p=14107 u=kinma13 |  10.55.32.253               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,586 p=14107 u=kinma13 |  10.55.32.254               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,586 p=14107 u=kinma13 |  10.55.32.255               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,586 p=14107 u=kinma13 |  10.55.32.26                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,586 p=14107 u=kinma13 |  10.55.32.27                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,586 p=14107 u=kinma13 |  10.55.32.28                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,586 p=14107 u=kinma13 |  10.55.32.29                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,587 p=14107 u=kinma13 |  10.55.32.30                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,587 p=14107 u=kinma13 |  10.55.32.31                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,587 p=14107 u=kinma13 |  10.55.32.32                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,587 p=14107 u=kinma13 |  10.55.32.33                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,587 p=14107 u=kinma13 |  10.55.32.34                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,587 p=14107 u=kinma13 |  10.55.32.35                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,587 p=14107 u=kinma13 |  10.55.32.36                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,587 p=14107 u=kinma13 |  10.55.32.37                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,587 p=14107 u=kinma13 |  10.55.32.38                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,588 p=14107 u=kinma13 |  10.55.32.39                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,588 p=14107 u=kinma13 |  10.55.32.40                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,588 p=14107 u=kinma13 |  10.55.32.41                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,588 p=14107 u=kinma13 |  10.55.32.42                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,588 p=14107 u=kinma13 |  10.55.32.43                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,588 p=14107 u=kinma13 |  10.55.32.44                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,588 p=14107 u=kinma13 |  10.55.32.45                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,588 p=14107 u=kinma13 |  10.55.32.46                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,589 p=14107 u=kinma13 |  10.55.32.47                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,589 p=14107 u=kinma13 |  10.55.32.48                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,589 p=14107 u=kinma13 |  10.55.32.49                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,589 p=14107 u=kinma13 |  10.55.32.50                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,589 p=14107 u=kinma13 |  10.55.32.51                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,589 p=14107 u=kinma13 |  10.55.32.52                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,589 p=14107 u=kinma13 |  10.55.32.53                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,589 p=14107 u=kinma13 |  10.55.32.54                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,589 p=14107 u=kinma13 |  10.55.32.55                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,590 p=14107 u=kinma13 |  10.55.32.56                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,590 p=14107 u=kinma13 |  10.55.32.57                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,590 p=14107 u=kinma13 |  10.55.32.58                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,590 p=14107 u=kinma13 |  10.55.32.59                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,590 p=14107 u=kinma13 |  10.55.32.60                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,590 p=14107 u=kinma13 |  10.55.32.61                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,590 p=14107 u=kinma13 |  10.55.32.62                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,590 p=14107 u=kinma13 |  10.55.32.63                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,590 p=14107 u=kinma13 |  10.55.32.64                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,591 p=14107 u=kinma13 |  10.55.32.65                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,591 p=14107 u=kinma13 |  10.55.32.66                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,591 p=14107 u=kinma13 |  10.55.32.67                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,591 p=14107 u=kinma13 |  10.55.32.68                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,591 p=14107 u=kinma13 |  10.55.32.69                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,591 p=14107 u=kinma13 |  10.55.32.70                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,591 p=14107 u=kinma13 |  10.55.32.71                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,591 p=14107 u=kinma13 |  10.55.32.72                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,591 p=14107 u=kinma13 |  10.55.32.73                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.74                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.75                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.76                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.77                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.78                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.79                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.80                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.81                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.82                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,592 p=14107 u=kinma13 |  10.55.32.83                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,593 p=14107 u=kinma13 |  10.55.32.84                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,593 p=14107 u=kinma13 |  10.55.32.85                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,593 p=14107 u=kinma13 |  10.55.32.86                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,593 p=14107 u=kinma13 |  10.55.32.87                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,593 p=14107 u=kinma13 |  10.55.32.88                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,593 p=14107 u=kinma13 |  10.55.32.89                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,593 p=14107 u=kinma13 |  10.55.32.90                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,593 p=14107 u=kinma13 |  10.55.32.91                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,593 p=14107 u=kinma13 |  10.55.32.92                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,594 p=14107 u=kinma13 |  10.55.32.93                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,594 p=14107 u=kinma13 |  10.55.32.94                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,594 p=14107 u=kinma13 |  10.55.32.95                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,594 p=14107 u=kinma13 |  10.55.32.96                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,594 p=14107 u=kinma13 |  10.55.32.97                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,594 p=14107 u=kinma13 |  10.55.32.98                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,594 p=14107 u=kinma13 |  10.55.32.99                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,594 p=14107 u=kinma13 |  10.55.33.1                 : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,594 p=14107 u=kinma13 |  10.55.33.10                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,595 p=14107 u=kinma13 |  10.55.33.100               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,595 p=14107 u=kinma13 |  10.55.33.101               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,595 p=14107 u=kinma13 |  10.55.33.102               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,595 p=14107 u=kinma13 |  10.55.33.103               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,595 p=14107 u=kinma13 |  10.55.33.104               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,595 p=14107 u=kinma13 |  10.55.33.105               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,595 p=14107 u=kinma13 |  10.55.33.106               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,595 p=14107 u=kinma13 |  10.55.33.107               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,596 p=14107 u=kinma13 |  10.55.33.108               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,596 p=14107 u=kinma13 |  10.55.33.109               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,596 p=14107 u=kinma13 |  10.55.33.11                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,596 p=14107 u=kinma13 |  10.55.33.110               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,596 p=14107 u=kinma13 |  10.55.33.111               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,596 p=14107 u=kinma13 |  10.55.33.112               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,596 p=14107 u=kinma13 |  10.55.33.113               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,596 p=14107 u=kinma13 |  10.55.33.114               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,596 p=14107 u=kinma13 |  10.55.33.115               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,597 p=14107 u=kinma13 |  10.55.33.116               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,597 p=14107 u=kinma13 |  10.55.33.117               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,597 p=14107 u=kinma13 |  10.55.33.118               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,597 p=14107 u=kinma13 |  10.55.33.119               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,597 p=14107 u=kinma13 |  10.55.33.12                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,597 p=14107 u=kinma13 |  10.55.33.120               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,597 p=14107 u=kinma13 |  10.55.33.121               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,597 p=14107 u=kinma13 |  10.55.33.122               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,598 p=14107 u=kinma13 |  10.55.33.123               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,598 p=14107 u=kinma13 |  10.55.33.124               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,598 p=14107 u=kinma13 |  10.55.33.125               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,598 p=14107 u=kinma13 |  10.55.33.126               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,598 p=14107 u=kinma13 |  10.55.33.127               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,598 p=14107 u=kinma13 |  10.55.33.128               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,598 p=14107 u=kinma13 |  10.55.33.129               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,598 p=14107 u=kinma13 |  10.55.33.13                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,598 p=14107 u=kinma13 |  10.55.33.130               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,599 p=14107 u=kinma13 |  10.55.33.131               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,599 p=14107 u=kinma13 |  10.55.33.132               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,599 p=14107 u=kinma13 |  10.55.33.133               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,599 p=14107 u=kinma13 |  10.55.33.134               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,599 p=14107 u=kinma13 |  10.55.33.135               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,599 p=14107 u=kinma13 |  10.55.33.136               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,599 p=14107 u=kinma13 |  10.55.33.137               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,599 p=14107 u=kinma13 |  10.55.33.138               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,599 p=14107 u=kinma13 |  10.55.33.139               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,600 p=14107 u=kinma13 |  10.55.33.14                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,600 p=14107 u=kinma13 |  10.55.33.140               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,600 p=14107 u=kinma13 |  10.55.33.141               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,600 p=14107 u=kinma13 |  10.55.33.142               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,600 p=14107 u=kinma13 |  10.55.33.143               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,600 p=14107 u=kinma13 |  10.55.33.144               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,600 p=14107 u=kinma13 |  10.55.33.145               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,600 p=14107 u=kinma13 |  10.55.33.146               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,600 p=14107 u=kinma13 |  10.55.33.147               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,601 p=14107 u=kinma13 |  10.55.33.148               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,601 p=14107 u=kinma13 |  10.55.33.149               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,601 p=14107 u=kinma13 |  10.55.33.15                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,601 p=14107 u=kinma13 |  10.55.33.150               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,601 p=14107 u=kinma13 |  10.55.33.151               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,601 p=14107 u=kinma13 |  10.55.33.152               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,601 p=14107 u=kinma13 |  10.55.33.153               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,601 p=14107 u=kinma13 |  10.55.33.154               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,601 p=14107 u=kinma13 |  10.55.33.155               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,602 p=14107 u=kinma13 |  10.55.33.156               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,602 p=14107 u=kinma13 |  10.55.33.157               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,602 p=14107 u=kinma13 |  10.55.33.158               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,602 p=14107 u=kinma13 |  10.55.33.159               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,602 p=14107 u=kinma13 |  10.55.33.16                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,602 p=14107 u=kinma13 |  10.55.33.160               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,602 p=14107 u=kinma13 |  10.55.33.161               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,602 p=14107 u=kinma13 |  10.55.33.162               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,603 p=14107 u=kinma13 |  10.55.33.163               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,603 p=14107 u=kinma13 |  10.55.33.164               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,603 p=14107 u=kinma13 |  10.55.33.165               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,603 p=14107 u=kinma13 |  10.55.33.166               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,603 p=14107 u=kinma13 |  10.55.33.167               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,603 p=14107 u=kinma13 |  10.55.33.168               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,603 p=14107 u=kinma13 |  10.55.33.169               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,603 p=14107 u=kinma13 |  10.55.33.17                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,603 p=14107 u=kinma13 |  10.55.33.170               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,604 p=14107 u=kinma13 |  10.55.33.171               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,604 p=14107 u=kinma13 |  10.55.33.172               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,604 p=14107 u=kinma13 |  10.55.33.173               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,604 p=14107 u=kinma13 |  10.55.33.174               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,604 p=14107 u=kinma13 |  10.55.33.175               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,604 p=14107 u=kinma13 |  10.55.33.176               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,604 p=14107 u=kinma13 |  10.55.33.177               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,604 p=14107 u=kinma13 |  10.55.33.178               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,604 p=14107 u=kinma13 |  10.55.33.179               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.18                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.180               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.181               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.182               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.183               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.184               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.185               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.186               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.187               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,605 p=14107 u=kinma13 |  10.55.33.188               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,606 p=14107 u=kinma13 |  10.55.33.189               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,606 p=14107 u=kinma13 |  10.55.33.19                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,606 p=14107 u=kinma13 |  10.55.33.190               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,606 p=14107 u=kinma13 |  10.55.33.191               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,606 p=14107 u=kinma13 |  10.55.33.192               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,606 p=14107 u=kinma13 |  10.55.33.193               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,606 p=14107 u=kinma13 |  10.55.33.194               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,606 p=14107 u=kinma13 |  10.55.33.195               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,606 p=14107 u=kinma13 |  10.55.33.196               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,607 p=14107 u=kinma13 |  10.55.33.197               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,607 p=14107 u=kinma13 |  10.55.33.198               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,607 p=14107 u=kinma13 |  10.55.33.199               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,607 p=14107 u=kinma13 |  10.55.33.2                 : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,607 p=14107 u=kinma13 |  10.55.33.20                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,607 p=14107 u=kinma13 |  10.55.33.200               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,607 p=14107 u=kinma13 |  10.55.33.201               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,607 p=14107 u=kinma13 |  10.55.33.202               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,607 p=14107 u=kinma13 |  10.55.33.203               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,608 p=14107 u=kinma13 |  10.55.33.204               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,608 p=14107 u=kinma13 |  10.55.33.205               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,608 p=14107 u=kinma13 |  10.55.33.206               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,608 p=14107 u=kinma13 |  10.55.33.207               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,608 p=14107 u=kinma13 |  10.55.33.208               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,608 p=14107 u=kinma13 |  10.55.33.209               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,608 p=14107 u=kinma13 |  10.55.33.21                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,608 p=14107 u=kinma13 |  10.55.33.210               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,608 p=14107 u=kinma13 |  10.55.33.211               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,609 p=14107 u=kinma13 |  10.55.33.212               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,609 p=14107 u=kinma13 |  10.55.33.213               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,609 p=14107 u=kinma13 |  10.55.33.214               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,609 p=14107 u=kinma13 |  10.55.33.215               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,609 p=14107 u=kinma13 |  10.55.33.216               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,609 p=14107 u=kinma13 |  10.55.33.217               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,609 p=14107 u=kinma13 |  10.55.33.218               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,609 p=14107 u=kinma13 |  10.55.33.219               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,609 p=14107 u=kinma13 |  10.55.33.22                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,610 p=14107 u=kinma13 |  10.55.33.220               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,610 p=14107 u=kinma13 |  10.55.33.221               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,610 p=14107 u=kinma13 |  10.55.33.222               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,610 p=14107 u=kinma13 |  10.55.33.223               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,610 p=14107 u=kinma13 |  10.55.33.224               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,610 p=14107 u=kinma13 |  10.55.33.225               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,610 p=14107 u=kinma13 |  10.55.33.226               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,610 p=14107 u=kinma13 |  10.55.33.227               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,610 p=14107 u=kinma13 |  10.55.33.228               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,611 p=14107 u=kinma13 |  10.55.33.229               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,611 p=14107 u=kinma13 |  10.55.33.23                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,611 p=14107 u=kinma13 |  10.55.33.230               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,611 p=14107 u=kinma13 |  10.55.33.231               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,611 p=14107 u=kinma13 |  10.55.33.24                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,611 p=14107 u=kinma13 |  10.55.33.25                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,611 p=14107 u=kinma13 |  10.55.33.26                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,612 p=14107 u=kinma13 |  10.55.33.27                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,612 p=14107 u=kinma13 |  10.55.33.28                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,612 p=14107 u=kinma13 |  10.55.33.29                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,612 p=14107 u=kinma13 |  10.55.33.3                 : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,612 p=14107 u=kinma13 |  10.55.33.30                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,612 p=14107 u=kinma13 |  10.55.33.31                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,612 p=14107 u=kinma13 |  10.55.33.32                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,612 p=14107 u=kinma13 |  10.55.33.33                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,612 p=14107 u=kinma13 |  10.55.33.34                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,613 p=14107 u=kinma13 |  10.55.33.35                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,613 p=14107 u=kinma13 |  10.55.33.36                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,613 p=14107 u=kinma13 |  10.55.33.37                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,613 p=14107 u=kinma13 |  10.55.33.38                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,613 p=14107 u=kinma13 |  10.55.33.39                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,613 p=14107 u=kinma13 |  10.55.33.4                 : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,613 p=14107 u=kinma13 |  10.55.33.40                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,613 p=14107 u=kinma13 |  10.55.33.41                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,613 p=14107 u=kinma13 |  10.55.33.42                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,614 p=14107 u=kinma13 |  10.55.33.43                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,614 p=14107 u=kinma13 |  10.55.33.44                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,614 p=14107 u=kinma13 |  10.55.33.45                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,614 p=14107 u=kinma13 |  10.55.33.46                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,614 p=14107 u=kinma13 |  10.55.33.47                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,614 p=14107 u=kinma13 |  10.55.33.48                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,614 p=14107 u=kinma13 |  10.55.33.49                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,614 p=14107 u=kinma13 |  10.55.33.5                 : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,614 p=14107 u=kinma13 |  10.55.33.50                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.51                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.52                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.53                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.54                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.55                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.56                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.57                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.58                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.59                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,615 p=14107 u=kinma13 |  10.55.33.6                 : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,616 p=14107 u=kinma13 |  10.55.33.60                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,616 p=14107 u=kinma13 |  10.55.33.61                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,616 p=14107 u=kinma13 |  10.55.33.62                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,616 p=14107 u=kinma13 |  10.55.33.63                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,616 p=14107 u=kinma13 |  10.55.33.64                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,616 p=14107 u=kinma13 |  10.55.33.65                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,616 p=14107 u=kinma13 |  10.55.33.66                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,616 p=14107 u=kinma13 |  10.55.33.67                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,616 p=14107 u=kinma13 |  10.55.33.68                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,617 p=14107 u=kinma13 |  10.55.33.69                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,617 p=14107 u=kinma13 |  10.55.33.7                 : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,617 p=14107 u=kinma13 |  10.55.33.70                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,617 p=14107 u=kinma13 |  10.55.33.71                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,617 p=14107 u=kinma13 |  10.55.33.72                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,617 p=14107 u=kinma13 |  10.55.33.73                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,617 p=14107 u=kinma13 |  10.55.33.74                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,617 p=14107 u=kinma13 |  10.55.33.75                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,617 p=14107 u=kinma13 |  10.55.33.76                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,618 p=14107 u=kinma13 |  10.55.33.77                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,618 p=14107 u=kinma13 |  10.55.33.78                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,618 p=14107 u=kinma13 |  10.55.33.79                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,618 p=14107 u=kinma13 |  10.55.33.8                 : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,618 p=14107 u=kinma13 |  10.55.33.80                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,618 p=14107 u=kinma13 |  10.55.33.81                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,618 p=14107 u=kinma13 |  10.55.33.82                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,618 p=14107 u=kinma13 |  10.55.33.83                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,619 p=14107 u=kinma13 |  10.55.33.84                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,619 p=14107 u=kinma13 |  10.55.33.85                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,619 p=14107 u=kinma13 |  10.55.33.86                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,619 p=14107 u=kinma13 |  10.55.33.87                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,619 p=14107 u=kinma13 |  10.55.33.88                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,619 p=14107 u=kinma13 |  10.55.33.89                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,619 p=14107 u=kinma13 |  10.55.33.9                 : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,619 p=14107 u=kinma13 |  10.55.33.90                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,619 p=14107 u=kinma13 |  10.55.33.91                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,620 p=14107 u=kinma13 |  10.55.33.92                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,620 p=14107 u=kinma13 |  10.55.33.93                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,620 p=14107 u=kinma13 |  10.55.33.94                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,620 p=14107 u=kinma13 |  10.55.33.95                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,620 p=14107 u=kinma13 |  10.55.33.96                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,620 p=14107 u=kinma13 |  10.55.33.97                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:21:27,620 p=14107 u=kinma13 |  10.55.33.98                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,620 p=14107 u=kinma13 |  10.55.33.99                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:21:27,620 p=14107 u=kinma13 |  Friday 02 March 2018  12:21:27 -0500 (0:04:48.894)       0:04:51.530 ********** 
+2018-03-02 12:21:27,621 p=14107 u=kinma13 |  =============================================================================== 
+2018-03-02 12:21:27,621 p=14107 u=kinma13 |  f5-pool-member-add : Add pool member ---------------------------------- 288.89s
+2018-03-02 12:23:27,184 p=23034 u=kinma13 |  PLAY [azure,us5,sc5,au1,mun] *****************************************************************************************************************************************************************************************************************
+2018-03-02 12:23:28,886 p=23034 u=kinma13 |  PLAY [addmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:23:29,376 p=23034 u=kinma13 |  PLAY [addmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:23:29,846 p=23034 u=kinma13 |  PLAY [addmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:23:29,881 p=23034 u=kinma13 |  TASK [f5-pool-member-add : Add pool member] **************************************************************************************************************************************************************************************************
+2018-03-02 12:23:29,882 p=23034 u=kinma13 |  Friday 02 March 2018  12:23:29 -0500 (0:00:03.389)       0:00:03.389 ********** 
+2018-03-02 12:24:35,353 p=23034 u=kinma13 |  fatal: [10.55.33.114 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1072_prod does not exist"}
+2018-03-02 12:24:37,831 p=23034 u=kinma13 |  fatal: [10.55.32.141 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:24:38,359 p=23034 u=kinma13 |  fatal: [10.55.32.139 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:24:39,984 p=23034 u=kinma13 |  fatal: [10.55.32.138 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:24:40,265 p=23034 u=kinma13 |  fatal: [10.55.32.137 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:24:42,698 p=23034 u=kinma13 |  fatal: [10.55.32.193 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1080_prod does not exist"}
+2018-03-02 12:24:42,726 p=23034 u=kinma13 |  fatal: [10.55.33.136 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1072_prod does not exist"}
+2018-03-02 12:24:44,347 p=23034 u=kinma13 |  fatal: [10.55.33.110 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1088_prod does not exist"}
+2018-03-02 12:24:46,814 p=23034 u=kinma13 |  fatal: [10.55.32.190 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1109_prod does not exist"}
+2018-03-02 12:24:46,891 p=23034 u=kinma13 |  fatal: [10.55.32.140 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1010_prod does not exist"}
+2018-03-02 12:24:47,608 p=23034 u=kinma13 |  fatal: [10.55.32.45 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1128_prod does not exist"}
+2018-03-02 12:24:48,071 p=23034 u=kinma13 |  fatal: [10.55.33.230 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2036_prod does not exist"}
+2018-03-02 12:24:49,113 p=23034 u=kinma13 |  fatal: [10.55.33.209 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1035_prod does not exist"}
+2018-03-02 12:24:54,500 p=23034 u=kinma13 |  fatal: [10.55.32.109 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm8039_prod does not exist"}
+2018-03-02 12:24:56,323 p=23034 u=kinma13 |  fatal: [10.55.33.156 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1121_prod does not exist"}
+2018-03-02 12:24:58,101 p=23034 u=kinma13 |  fatal: [10.55.32.53 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm8050_prod does not exist"}
+2018-03-02 12:24:58,449 p=23034 u=kinma13 |  fatal: [10.55.32.178 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9011_prod does not exist"}
+2018-03-02 12:25:03,607 p=23034 u=kinma13 |  fatal: [10.55.32.121 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1132_prod does not exist"}
+2018-03-02 12:25:03,618 p=23034 u=kinma13 |  fatal: [10.55.32.71 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9021_prod does not exist"}
+2018-03-02 12:25:04,002 p=23034 u=kinma13 |  fatal: [10.55.32.52 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm8050_prod does not exist"}
+2018-03-02 12:25:04,003 p=23034 u=kinma13 |  fatal: [10.55.32.105 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9022_prod does not exist"}
+2018-03-02 12:25:04,035 p=23034 u=kinma13 |  fatal: [10.55.32.118 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2018_prod does not exist"}
+2018-03-02 12:25:04,133 p=23034 u=kinma13 |  fatal: [10.55.32.67 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9023_prod does not exist"}
+2018-03-02 12:25:04,437 p=23034 u=kinma13 |  fatal: [10.55.32.119 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2012_prod does not exist"}
+2018-03-02 12:25:04,671 p=23034 u=kinma13 |  fatal: [10.55.32.117 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2018_prod does not exist"}
+2018-03-02 12:25:06,018 p=23034 u=kinma13 |  fatal: [10.55.33.231 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1142_prod does not exist"}
+2018-03-02 12:25:06,224 p=23034 u=kinma13 |  fatal: [10.55.32.70 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9021_prod does not exist"}
+2018-03-02 12:25:06,522 p=23034 u=kinma13 |  fatal: [10.55.32.73 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9010_prod does not exist"}
+2018-03-02 12:25:06,671 p=23034 u=kinma13 |  fatal: [10.55.33.194 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9012_prod does not exist"}
+2018-03-02 12:25:07,026 p=23034 u=kinma13 |  fatal: [10.55.32.98 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9048_prod does not exist"}
+2018-03-02 12:25:07,156 p=23034 u=kinma13 |  fatal: [10.55.32.50 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9039_prod does not exist"}
+2018-03-02 12:25:09,435 p=23034 u=kinma13 |  fatal: [10.55.32.192 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1080_prod does not exist"}
+2018-03-02 12:25:09,794 p=23034 u=kinma13 |  fatal: [10.55.32.25 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9071_prod does not exist"}
+2018-03-02 12:25:09,983 p=23034 u=kinma13 |  fatal: [10.55.32.144 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9028_prod does not exist"}
+2018-03-02 12:25:10,553 p=23034 u=kinma13 |  fatal: [10.55.32.179 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9006_prod does not exist"}
+2018-03-02 12:25:10,768 p=23034 u=kinma13 |  fatal: [10.55.33.63 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9016_prod does not exist"}
+2018-03-02 12:25:10,788 p=23034 u=kinma13 |  fatal: [10.55.32.24 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9076_prod does not exist"}
+2018-03-02 12:25:10,866 p=23034 u=kinma13 |  fatal: [10.55.33.113 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9015_prod does not exist"}
+2018-03-02 12:25:11,697 p=23034 u=kinma13 |  fatal: [10.55.32.57 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9023_prod does not exist"}
+2018-03-02 12:25:12,137 p=23034 u=kinma13 |  fatal: [10.55.32.74 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9005_prod does not exist"}
+2018-03-02 12:25:13,039 p=23034 u=kinma13 |  fatal: [10.55.33.180 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9110_prod does not exist"}
+2018-03-02 12:25:13,184 p=23034 u=kinma13 |  fatal: [10.55.32.175 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9024_prod does not exist"}
+2018-03-02 12:25:13,241 p=23034 u=kinma13 |  fatal: [10.55.32.28 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9070_prod does not exist"}
+2018-03-02 12:25:13,256 p=23034 u=kinma13 |  fatal: [10.55.32.29 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9069_prod does not exist"}
+2018-03-02 12:25:13,443 p=23034 u=kinma13 |  fatal: [10.55.32.72 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9015_prod does not exist"}
+2018-03-02 12:25:13,446 p=23034 u=kinma13 |  fatal: [10.55.32.108 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm8043_prod does not exist"}
+2018-03-02 12:25:13,625 p=23034 u=kinma13 |  fatal: [10.55.32.142 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1131_prod does not exist"}
+2018-03-02 12:25:13,840 p=23034 u=kinma13 |  fatal: [10.55.32.184 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2058_prod does not exist"}
+2018-03-02 12:25:15,302 p=23034 u=kinma13 |  fatal: [10.55.32.23 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9076_prod does not exist"}
+2018-03-02 12:25:15,889 p=23034 u=kinma13 |  fatal: [10.55.32.97 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9052_prod does not exist"}
+2018-03-02 12:25:16,388 p=23034 u=kinma13 |  fatal: [10.55.33.174 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9107_prod does not exist"}
+2018-03-02 12:25:16,389 p=23034 u=kinma13 |  fatal: [10.55.33.201 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9092_prod does not exist"}
+2018-03-02 12:25:16,610 p=23034 u=kinma13 |  fatal: [10.55.33.115 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9130_prod does not exist"}
+2018-03-02 12:25:17,958 p=23034 u=kinma13 |  fatal: [10.55.33.211 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9087_prod does not exist"}
+2018-03-02 12:25:19,402 p=23034 u=kinma13 |  fatal: [10.55.33.169 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9113_prod does not exist"}
+2018-03-02 12:25:20,123 p=23034 u=kinma13 |  fatal: [10.55.33.170 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9113_prod does not exist"}
+2018-03-02 12:25:20,488 p=23034 u=kinma13 |  fatal: [10.55.33.206 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9085_prod does not exist"}
+2018-03-02 12:25:20,625 p=23034 u=kinma13 |  fatal: [10.55.33.55 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9129_prod does not exist"}
+2018-03-02 12:25:20,710 p=23034 u=kinma13 |  fatal: [10.55.33.64 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9170_prod does not exist"}
+2018-03-02 12:25:20,957 p=23034 u=kinma13 |  fatal: [10.55.33.59 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9172_prod does not exist"}
+2018-03-02 12:25:21,192 p=23034 u=kinma13 |  fatal: [10.55.33.14 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9176_prod does not exist"}
+2018-03-02 12:25:21,250 p=23034 u=kinma13 |  fatal: [10.55.33.205 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9085_prod does not exist"}
+2018-03-02 12:25:21,293 p=23034 u=kinma13 |  fatal: [10.55.33.212 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9087_prod does not exist"}
+2018-03-02 12:25:21,975 p=23034 u=kinma13 |  fatal: [10.55.33.116 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9129_prod does not exist"}
+2018-03-02 12:25:22,046 p=23034 u=kinma13 |  fatal: [10.55.33.157 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9102_prod does not exist"}
+2018-03-02 12:25:22,477 p=23034 u=kinma13 |  fatal: [10.55.33.202 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9091_prod does not exist"}
+2018-03-02 12:25:22,731 p=23034 u=kinma13 |  fatal: [10.55.33.199 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9012_prod does not exist"}
+2018-03-02 12:25:22,750 p=23034 u=kinma13 |  fatal: [10.55.33.179 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9110_prod does not exist"}
+2018-03-02 12:25:23,038 p=23034 u=kinma13 |  fatal: [10.55.32.132 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1131_prod does not exist"}
+2018-03-02 12:25:23,282 p=23034 u=kinma13 |  fatal: [10.55.33.8 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9211_prod does not exist"}
+2018-03-02 12:25:23,449 p=23034 u=kinma13 |  fatal: [10.55.33.67 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9168_prod does not exist"}
+2018-03-02 12:25:23,519 p=23034 u=kinma13 |  fatal: [10.55.33.84 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9158_prod does not exist"}
+2018-03-02 12:25:23,732 p=23034 u=kinma13 |  fatal: [10.55.32.254 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9215_prod does not exist"}
+2018-03-02 12:25:23,733 p=23034 u=kinma13 |  fatal: [10.55.32.177 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9011_prod does not exist"}
+2018-03-02 12:25:23,933 p=23034 u=kinma13 |  fatal: [10.55.32.239 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9223_prod does not exist"}
+2018-03-02 12:25:24,112 p=23034 u=kinma13 |  fatal: [10.55.32.27 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9070_prod does not exist"}
+2018-03-02 12:25:24,161 p=23034 u=kinma13 |  fatal: [10.55.32.231 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9227_prod does not exist"}
+2018-03-02 12:25:24,331 p=23034 u=kinma13 |  fatal: [10.55.33.7 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9212_prod does not exist"}
+2018-03-02 12:25:24,849 p=23034 u=kinma13 |  fatal: [10.55.33.53 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9206_prod does not exist"}
+2018-03-02 12:25:25,074 p=23034 u=kinma13 |  fatal: [10.55.32.235 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9225_prod does not exist"}
+2018-03-02 12:25:25,079 p=23034 u=kinma13 |  fatal: [10.55.33.17 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9174_prod does not exist"}
+2018-03-02 12:25:25,568 p=23034 u=kinma13 |  fatal: [10.55.32.209 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9237_prod does not exist"}
+2018-03-02 12:25:25,896 p=23034 u=kinma13 |  fatal: [10.55.32.236 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9225_prod does not exist"}
+2018-03-02 12:25:25,906 p=23034 u=kinma13 |  fatal: [10.55.33.183 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2020_prod does not exist"}
+2018-03-02 12:25:25,907 p=23034 u=kinma13 |  fatal: [10.55.32.251 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9217_prod does not exist"}
+2018-03-02 12:25:26,371 p=23034 u=kinma13 |  fatal: [10.55.32.229 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9228_prod does not exist"}
+2018-03-02 12:25:26,651 p=23034 u=kinma13 |  fatal: [10.55.32.206 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9239_prod does not exist"}
+2018-03-02 12:25:26,725 p=23034 u=kinma13 |  fatal: [10.55.32.155 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9249_prod does not exist"}
+2018-03-02 12:25:26,738 p=23034 u=kinma13 |  fatal: [10.55.32.228 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9229_prod does not exist"}
+2018-03-02 12:25:26,775 p=23034 u=kinma13 |  fatal: [10.55.32.159 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9247_prod does not exist"}
+2018-03-02 12:25:26,793 p=23034 u=kinma13 |  fatal: [10.55.32.165 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmbi9000_prod does not exist"}
+2018-03-02 12:25:26,866 p=23034 u=kinma13 |  fatal: [10.55.32.202 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9241_prod does not exist"}
+2018-03-02 12:25:26,878 p=23034 u=kinma13 |  fatal: [10.55.32.86 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9260_prod does not exist"}
+2018-03-02 12:25:27,071 p=23034 u=kinma13 |  fatal: [10.55.33.13 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9176_prod does not exist"}
+2018-03-02 12:25:27,079 p=23034 u=kinma13 |  fatal: [10.55.33.176 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm1026_prod does not exist"}
+2018-03-02 12:25:27,083 p=23034 u=kinma13 |  fatal: [10.55.32.197 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9243_prod does not exist"}
+2018-03-02 12:25:27,268 p=23034 u=kinma13 |  fatal: [10.55.32.153 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9250_prod does not exist"}
+2018-03-02 12:25:27,342 p=23034 u=kinma13 |  fatal: [10.55.32.252 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9216_prod does not exist"}
+2018-03-02 12:25:27,343 p=23034 u=kinma13 |  fatal: [10.55.32.212 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9236_prod does not exist"}
+2018-03-02 12:25:27,346 p=23034 u=kinma13 |  fatal: [10.55.32.211 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9236_prod does not exist"}
+2018-03-02 12:25:27,519 p=23034 u=kinma13 |  fatal: [10.55.32.230 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9228_prod does not exist"}
+2018-03-02 12:25:27,593 p=23034 u=kinma13 |  fatal: [10.55.33.213 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "received exception: URLError: <urlopen error [Errno 104] Connection reset by peer>"}
+2018-03-02 12:25:27,728 p=23034 u=kinma13 |  fatal: [10.55.33.36 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9194_prod does not exist"}
+2018-03-02 12:25:27,760 p=23034 u=kinma13 |  fatal: [10.55.32.200 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9242_prod does not exist"}
+2018-03-02 12:25:28,234 p=23034 u=kinma13 |  fatal: [10.55.32.205 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9239_prod does not exist"}
+2018-03-02 12:25:28,452 p=23034 u=kinma13 |  fatal: [10.55.32.204 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9240_prod does not exist"}
+2018-03-02 12:25:28,510 p=23034 u=kinma13 |  fatal: [10.55.33.23 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9201_prod does not exist"}
+2018-03-02 12:25:28,670 p=23034 u=kinma13 |  fatal: [10.55.32.164 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmbi9000_prod does not exist"}
+2018-03-02 12:25:28,825 p=23034 u=kinma13 |  fatal: [10.55.32.201 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9241_prod does not exist"}
+2018-03-02 12:25:28,995 p=23034 u=kinma13 |  fatal: [10.55.33.60 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9172_prod does not exist"}
+2018-03-02 12:25:29,825 p=23034 u=kinma13 |  fatal: [10.55.33.132 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9133_prod does not exist"}
+2018-03-02 12:25:29,860 p=23034 u=kinma13 |  fatal: [10.55.33.5 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9214_prod does not exist"}
+2018-03-02 12:25:29,879 p=23034 u=kinma13 |  fatal: [10.55.32.240 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9223_prod does not exist"}
+2018-03-02 12:25:30,118 p=23034 u=kinma13 |  fatal: [10.55.33.97 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt123_prod does not exist"}
+2018-03-02 12:25:30,127 p=23034 u=kinma13 |  fatal: [10.55.32.227 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9229_prod does not exist"}
+2018-03-02 12:25:30,282 p=23034 u=kinma13 |  fatal: [10.55.33.171 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9112_prod does not exist"}
+2018-03-02 12:25:30,456 p=23034 u=kinma13 |  fatal: [10.55.32.157 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9248_prod does not exist"}
+2018-03-02 12:25:30,497 p=23034 u=kinma13 |  fatal: [10.55.33.92 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt103_prod does not exist"}
+2018-03-02 12:25:30,820 p=23034 u=kinma13 |  fatal: [10.55.32.152 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9250_prod does not exist"}
+2018-03-02 12:25:31,167 p=23034 u=kinma13 |  fatal: [10.55.32.219 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt402_prod does not exist"}
+2018-03-02 12:25:32,002 p=23034 u=kinma13 |  fatal: [10.55.32.31 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm8047_prod does not exist"}
+2018-03-02 12:25:32,011 p=23034 u=kinma13 |  fatal: [10.55.33.91 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt103_prod does not exist"}
+2018-03-02 12:25:32,408 p=23034 u=kinma13 |  fatal: [10.55.32.154 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9249_prod does not exist"}
+2018-03-02 12:25:33,906 p=23034 u=kinma13 |  fatal: [10.55.33.93 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppmrpt103_prod does not exist"}
+2018-03-02 12:25:34,052 p=23034 u=kinma13 |  fatal: [10.55.32.198 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9023_prod does not exist"}
+2018-03-02 12:25:34,274 p=23034 u=kinma13 |  fatal: [10.55.32.158 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9247_prod does not exist"}
+2018-03-02 12:25:34,450 p=23034 u=kinma13 |  fatal: [10.55.32.210 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9237_prod does not exist"}
+2018-03-02 12:25:35,319 p=23034 u=kinma13 |  fatal: [10.55.32.156 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9248_prod does not exist"}
+2018-03-02 12:25:35,783 p=23034 u=kinma13 |  fatal: [10.55.33.20 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9203_prod does not exist"}
+2018-03-02 12:25:35,789 p=23034 u=kinma13 |  fatal: [10.55.32.49 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9041_prod does not exist"}
+2018-03-02 12:25:36,467 p=23034 u=kinma13 |  ok: [10.55.32.173 -> localhost]
+2018-03-02 12:25:37,591 p=23034 u=kinma13 |  changed: [10.55.32.136 -> localhost]
+2018-03-02 12:25:37,600 p=23034 u=kinma13 |  fatal: [10.55.33.129 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9135_prod does not exist"}
+2018-03-02 12:25:37,610 p=23034 u=kinma13 |  changed: [10.55.32.63 -> localhost]
+2018-03-02 12:25:37,625 p=23034 u=kinma13 |  changed: [10.55.32.58 -> localhost]
+2018-03-02 12:25:37,739 p=23034 u=kinma13 |  fatal: [10.55.33.128 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9135_prod does not exist"}
+2018-03-02 12:25:38,143 p=23034 u=kinma13 |  fatal: [10.55.33.83 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9158_prod does not exist"}
+2018-03-02 12:25:38,422 p=23034 u=kinma13 |  ok: [10.55.33.167 -> localhost]
+2018-03-02 12:25:38,635 p=23034 u=kinma13 |  fatal: [10.55.32.207 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9238_prod does not exist"}
+2018-03-02 12:25:38,900 p=23034 u=kinma13 |  changed: [10.55.32.56 -> localhost]
+2018-03-02 12:25:39,348 p=23034 u=kinma13 |  changed: [10.55.32.115 -> localhost]
+2018-03-02 12:25:39,377 p=23034 u=kinma13 |  changed: [10.55.32.186 -> localhost]
+2018-03-02 12:25:39,645 p=23034 u=kinma13 |  fatal: [10.55.32.199 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9242_prod does not exist"}
+2018-03-02 12:25:40,192 p=23034 u=kinma13 |  changed: [10.55.32.38 -> localhost]
+2018-03-02 12:25:40,569 p=23034 u=kinma13 |  changed: [10.55.32.111 -> localhost]
+2018-03-02 12:25:40,569 p=23034 u=kinma13 |  changed: [10.55.32.185 -> localhost]
+2018-03-02 12:25:40,578 p=23034 u=kinma13 |  changed: [10.55.32.100 -> localhost]
+2018-03-02 12:25:40,579 p=23034 u=kinma13 |  fatal: [10.55.33.57 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9187_prod does not exist"}
+2018-03-02 12:25:40,646 p=23034 u=kinma13 |  ok: [10.55.32.76 -> localhost]
+2018-03-02 12:25:40,690 p=23034 u=kinma13 |  changed: [10.55.33.217 -> localhost]
+2018-03-02 12:25:40,715 p=23034 u=kinma13 |  changed: [10.55.33.187 -> localhost]
+2018-03-02 12:25:40,832 p=23034 u=kinma13 |  changed: [10.55.33.173 -> localhost]
+2018-03-02 12:25:40,913 p=23034 u=kinma13 |  fatal: [10.55.33.35 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9194_prod does not exist"}
+2018-03-02 12:25:40,939 p=23034 u=kinma13 |  changed: [10.55.32.47 -> localhost]
+2018-03-02 12:25:40,946 p=23034 u=kinma13 |  changed: [10.55.33.168 -> localhost]
+2018-03-02 12:25:40,958 p=23034 u=kinma13 |  changed: [10.55.32.59 -> localhost]
+2018-03-02 12:25:41,024 p=23034 u=kinma13 |  changed: [10.55.33.195 -> localhost]
+2018-03-02 12:25:41,060 p=23034 u=kinma13 |  fatal: [10.55.33.19 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9203_prod does not exist"}
+2018-03-02 12:25:41,142 p=23034 u=kinma13 |  changed: [10.55.33.161 -> localhost]
+2018-03-02 12:25:41,153 p=23034 u=kinma13 |  changed: [10.55.33.142 -> localhost]
+2018-03-02 12:25:41,184 p=23034 u=kinma13 |  changed: [10.55.33.125 -> localhost]
+2018-03-02 12:25:41,297 p=23034 u=kinma13 |  changed: [10.55.33.87 -> localhost]
+2018-03-02 12:25:41,310 p=23034 u=kinma13 |  changed: [10.55.32.26 -> localhost]
+2018-03-02 12:25:41,367 p=23034 u=kinma13 |  changed: [10.55.33.75 -> localhost]
+2018-03-02 12:25:41,424 p=23034 u=kinma13 |  changed: [10.55.33.65 -> localhost]
+2018-03-02 12:25:41,435 p=23034 u=kinma13 |  changed: [10.55.32.48 -> localhost]
+2018-03-02 12:25:41,456 p=23034 u=kinma13 |  changed: [10.55.33.189 -> localhost]
+2018-03-02 12:25:41,561 p=23034 u=kinma13 |  changed: [10.55.32.172 -> localhost]
+2018-03-02 12:25:41,566 p=23034 u=kinma13 |  changed: [10.55.33.44 -> localhost]
+2018-03-02 12:25:41,662 p=23034 u=kinma13 |  changed: [10.55.33.140 -> localhost]
+2018-03-02 12:25:41,669 p=23034 u=kinma13 |  fatal: [10.55.32.253 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9215_prod does not exist"}
+2018-03-02 12:25:41,683 p=23034 u=kinma13 |  changed: [10.55.33.10 -> localhost]
+2018-03-02 12:25:41,690 p=23034 u=kinma13 |  changed: [10.55.33.80 -> localhost]
+2018-03-02 12:25:41,707 p=23034 u=kinma13 |  changed: [10.55.33.147 -> localhost]
+2018-03-02 12:25:41,773 p=23034 u=kinma13 |  fatal: [10.55.32.107 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9003_prod does not exist"}
+2018-03-02 12:25:42,172 p=23034 u=kinma13 |  changed: [10.55.33.104 -> localhost]
+2018-03-02 12:25:42,179 p=23034 u=kinma13 |  changed: [10.55.33.30 -> localhost]
+2018-03-02 12:25:42,185 p=23034 u=kinma13 |  changed: [10.55.33.86 -> localhost]
+2018-03-02 12:25:42,210 p=23034 u=kinma13 |  changed: [10.55.33.81 -> localhost]
+2018-03-02 12:25:42,431 p=23034 u=kinma13 |  changed: [10.55.33.62 -> localhost]
+2018-03-02 12:25:42,571 p=23034 u=kinma13 |  changed: [10.55.33.193 -> localhost]
+2018-03-02 12:25:42,583 p=23034 u=kinma13 |  changed: [10.55.33.162 -> localhost]
+2018-03-02 12:25:42,589 p=23034 u=kinma13 |  changed: [10.55.33.29 -> localhost]
+2018-03-02 12:25:42,606 p=23034 u=kinma13 |  fatal: [10.55.32.232 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9227_prod does not exist"}
+2018-03-02 12:25:42,640 p=23034 u=kinma13 |  fatal: [10.55.32.208 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9238_prod does not exist"}
+2018-03-02 12:25:42,695 p=23034 u=kinma13 |  changed: [10.55.33.127 -> localhost]
+2018-03-02 12:25:42,698 p=23034 u=kinma13 |  changed: [10.55.33.12 -> localhost]
+2018-03-02 12:25:42,701 p=23034 u=kinma13 |  changed: [10.55.32.225 -> localhost]
+2018-03-02 12:25:43,239 p=23034 u=kinma13 |  fatal: [10.55.32.203 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm9240_prod does not exist"}
+2018-03-02 12:25:43,269 p=23034 u=kinma13 |  changed: [10.55.33.79 -> localhost]
+2018-03-02 12:25:43,543 p=23034 u=kinma13 |  changed: [10.55.33.46 -> localhost]
+2018-03-02 12:25:43,558 p=23034 u=kinma13 |  changed: [10.55.33.215 -> localhost]
+2018-03-02 12:25:43,582 p=23034 u=kinma13 |  PLAY [delmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:25:43,582 p=23034 u=kinma13 |  skipping: no hosts matched
+2018-03-02 12:25:43,584 p=23034 u=kinma13 |  PLAY [delmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:25:43,584 p=23034 u=kinma13 |  skipping: no hosts matched
+2018-03-02 12:25:43,586 p=23034 u=kinma13 |  PLAY [delmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:25:43,586 p=23034 u=kinma13 |  skipping: no hosts matched
+2018-03-02 12:25:43,588 p=23034 u=kinma13 |  PLAY [delmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:25:43,588 p=23034 u=kinma13 |  skipping: no hosts matched
+2018-03-02 12:25:43,589 p=23034 u=kinma13 |  	to retry, use: --limit @/usr/share/ansible/f5/site.retry
+
+2018-03-02 12:25:43,589 p=23034 u=kinma13 |  PLAY RECAP ***********************************************************************************************************************************************************************************************************************************
+2018-03-02 12:25:43,589 p=23034 u=kinma13 |  10.55.32.100               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,589 p=23034 u=kinma13 |  10.55.32.105               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,589 p=23034 u=kinma13 |  10.55.32.107               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,589 p=23034 u=kinma13 |  10.55.32.108               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,590 p=23034 u=kinma13 |  10.55.32.109               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,590 p=23034 u=kinma13 |  10.55.32.111               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,590 p=23034 u=kinma13 |  10.55.32.115               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,590 p=23034 u=kinma13 |  10.55.32.117               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,590 p=23034 u=kinma13 |  10.55.32.118               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,590 p=23034 u=kinma13 |  10.55.32.119               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,590 p=23034 u=kinma13 |  10.55.32.121               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,590 p=23034 u=kinma13 |  10.55.32.132               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,590 p=23034 u=kinma13 |  10.55.32.136               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,591 p=23034 u=kinma13 |  10.55.32.137               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,591 p=23034 u=kinma13 |  10.55.32.138               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,591 p=23034 u=kinma13 |  10.55.32.139               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,591 p=23034 u=kinma13 |  10.55.32.140               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,591 p=23034 u=kinma13 |  10.55.32.141               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,591 p=23034 u=kinma13 |  10.55.32.142               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,591 p=23034 u=kinma13 |  10.55.32.144               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,591 p=23034 u=kinma13 |  10.55.32.152               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,591 p=23034 u=kinma13 |  10.55.32.153               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.154               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.155               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.156               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.157               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.158               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.159               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.164               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.165               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.172               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,592 p=23034 u=kinma13 |  10.55.32.173               : ok=1    changed=0    unreachable=0    failed=0   
+2018-03-02 12:25:43,593 p=23034 u=kinma13 |  10.55.32.175               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,593 p=23034 u=kinma13 |  10.55.32.177               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,593 p=23034 u=kinma13 |  10.55.32.178               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,593 p=23034 u=kinma13 |  10.55.32.179               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,593 p=23034 u=kinma13 |  10.55.32.184               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,593 p=23034 u=kinma13 |  10.55.32.185               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,593 p=23034 u=kinma13 |  10.55.32.186               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,593 p=23034 u=kinma13 |  10.55.32.190               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,593 p=23034 u=kinma13 |  10.55.32.192               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.193               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.197               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.198               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.199               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.200               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.201               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.202               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.203               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.204               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,594 p=23034 u=kinma13 |  10.55.32.205               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,595 p=23034 u=kinma13 |  10.55.32.206               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,595 p=23034 u=kinma13 |  10.55.32.207               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,595 p=23034 u=kinma13 |  10.55.32.208               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,595 p=23034 u=kinma13 |  10.55.32.209               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,595 p=23034 u=kinma13 |  10.55.32.210               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,595 p=23034 u=kinma13 |  10.55.32.211               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,595 p=23034 u=kinma13 |  10.55.32.212               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,595 p=23034 u=kinma13 |  10.55.32.219               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,596 p=23034 u=kinma13 |  10.55.32.225               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,596 p=23034 u=kinma13 |  10.55.32.227               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,596 p=23034 u=kinma13 |  10.55.32.228               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,596 p=23034 u=kinma13 |  10.55.32.229               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,596 p=23034 u=kinma13 |  10.55.32.23                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,596 p=23034 u=kinma13 |  10.55.32.230               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,596 p=23034 u=kinma13 |  10.55.32.231               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,596 p=23034 u=kinma13 |  10.55.32.232               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,596 p=23034 u=kinma13 |  10.55.32.235               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,597 p=23034 u=kinma13 |  10.55.32.236               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,597 p=23034 u=kinma13 |  10.55.32.239               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,597 p=23034 u=kinma13 |  10.55.32.24                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,597 p=23034 u=kinma13 |  10.55.32.240               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,597 p=23034 u=kinma13 |  10.55.32.25                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,597 p=23034 u=kinma13 |  10.55.32.251               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,597 p=23034 u=kinma13 |  10.55.32.252               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,597 p=23034 u=kinma13 |  10.55.32.253               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,597 p=23034 u=kinma13 |  10.55.32.254               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.26                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.27                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.28                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.29                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.31                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.38                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.45                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.47                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.48                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,598 p=23034 u=kinma13 |  10.55.32.49                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,599 p=23034 u=kinma13 |  10.55.32.50                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,599 p=23034 u=kinma13 |  10.55.32.52                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,599 p=23034 u=kinma13 |  10.55.32.53                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,599 p=23034 u=kinma13 |  10.55.32.56                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,599 p=23034 u=kinma13 |  10.55.32.57                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,599 p=23034 u=kinma13 |  10.55.32.58                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,599 p=23034 u=kinma13 |  10.55.32.59                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,599 p=23034 u=kinma13 |  10.55.32.63                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,599 p=23034 u=kinma13 |  10.55.32.67                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,600 p=23034 u=kinma13 |  10.55.32.70                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,600 p=23034 u=kinma13 |  10.55.32.71                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,600 p=23034 u=kinma13 |  10.55.32.72                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,600 p=23034 u=kinma13 |  10.55.32.73                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,600 p=23034 u=kinma13 |  10.55.32.74                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,600 p=23034 u=kinma13 |  10.55.32.76                : ok=1    changed=0    unreachable=0    failed=0   
+2018-03-02 12:25:43,600 p=23034 u=kinma13 |  10.55.32.86                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,600 p=23034 u=kinma13 |  10.55.32.97                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,600 p=23034 u=kinma13 |  10.55.32.98                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.10                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.104               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.110               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.113               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.114               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.115               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.116               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.12                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.125               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,601 p=23034 u=kinma13 |  10.55.33.127               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,602 p=23034 u=kinma13 |  10.55.33.128               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,602 p=23034 u=kinma13 |  10.55.33.129               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,602 p=23034 u=kinma13 |  10.55.33.13                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,602 p=23034 u=kinma13 |  10.55.33.132               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,602 p=23034 u=kinma13 |  10.55.33.136               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,602 p=23034 u=kinma13 |  10.55.33.14                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,602 p=23034 u=kinma13 |  10.55.33.140               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,602 p=23034 u=kinma13 |  10.55.33.142               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,602 p=23034 u=kinma13 |  10.55.33.147               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,603 p=23034 u=kinma13 |  10.55.33.156               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,603 p=23034 u=kinma13 |  10.55.33.157               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,603 p=23034 u=kinma13 |  10.55.33.161               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,603 p=23034 u=kinma13 |  10.55.33.162               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,603 p=23034 u=kinma13 |  10.55.33.167               : ok=1    changed=0    unreachable=0    failed=0   
+2018-03-02 12:25:43,603 p=23034 u=kinma13 |  10.55.33.168               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.169               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.17                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.170               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.171               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.173               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.174               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.176               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.179               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.180               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,604 p=23034 u=kinma13 |  10.55.33.183               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,605 p=23034 u=kinma13 |  10.55.33.187               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,605 p=23034 u=kinma13 |  10.55.33.189               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,605 p=23034 u=kinma13 |  10.55.33.19                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,605 p=23034 u=kinma13 |  10.55.33.193               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,605 p=23034 u=kinma13 |  10.55.33.194               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,605 p=23034 u=kinma13 |  10.55.33.195               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,605 p=23034 u=kinma13 |  10.55.33.199               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,605 p=23034 u=kinma13 |  10.55.33.20                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,605 p=23034 u=kinma13 |  10.55.33.201               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,606 p=23034 u=kinma13 |  10.55.33.202               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,606 p=23034 u=kinma13 |  10.55.33.205               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,606 p=23034 u=kinma13 |  10.55.33.206               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,606 p=23034 u=kinma13 |  10.55.33.209               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,606 p=23034 u=kinma13 |  10.55.33.211               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,606 p=23034 u=kinma13 |  10.55.33.212               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,606 p=23034 u=kinma13 |  10.55.33.213               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,606 p=23034 u=kinma13 |  10.55.33.215               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,606 p=23034 u=kinma13 |  10.55.33.217               : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,607 p=23034 u=kinma13 |  10.55.33.23                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,607 p=23034 u=kinma13 |  10.55.33.230               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,607 p=23034 u=kinma13 |  10.55.33.231               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,607 p=23034 u=kinma13 |  10.55.33.29                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,607 p=23034 u=kinma13 |  10.55.33.30                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,607 p=23034 u=kinma13 |  10.55.33.35                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,607 p=23034 u=kinma13 |  10.55.33.36                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,607 p=23034 u=kinma13 |  10.55.33.44                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,607 p=23034 u=kinma13 |  10.55.33.46                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.5                 : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.53                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.55                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.57                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.59                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.60                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.62                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.63                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.64                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,608 p=23034 u=kinma13 |  10.55.33.65                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,609 p=23034 u=kinma13 |  10.55.33.67                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,609 p=23034 u=kinma13 |  10.55.33.7                 : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,609 p=23034 u=kinma13 |  10.55.33.75                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,609 p=23034 u=kinma13 |  10.55.33.79                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,609 p=23034 u=kinma13 |  10.55.33.8                 : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,609 p=23034 u=kinma13 |  10.55.33.80                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,609 p=23034 u=kinma13 |  10.55.33.81                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,609 p=23034 u=kinma13 |  10.55.33.83                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,609 p=23034 u=kinma13 |  10.55.33.84                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,610 p=23034 u=kinma13 |  10.55.33.86                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,610 p=23034 u=kinma13 |  10.55.33.87                : ok=1    changed=1    unreachable=0    failed=0   
+2018-03-02 12:25:43,610 p=23034 u=kinma13 |  10.55.33.91                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,610 p=23034 u=kinma13 |  10.55.33.92                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,610 p=23034 u=kinma13 |  10.55.33.93                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,610 p=23034 u=kinma13 |  10.55.33.97                : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:25:43,610 p=23034 u=kinma13 |  Friday 02 March 2018  12:25:43 -0500 (0:02:13.728)       0:02:17.118 ********** 
+2018-03-02 12:25:43,610 p=23034 u=kinma13 |  =============================================================================== 
+2018-03-02 12:25:43,610 p=23034 u=kinma13 |  f5-pool-member-add : Add pool member ---------------------------------- 133.73s
+2018-03-02 12:26:20,535 p=26724 u=kinma13 |  PLAY [azure,us5,sc5,au1,mun] *****************************************************************************************************************************************************************************************************************
+2018-03-02 12:26:20,585 p=26724 u=kinma13 |  PLAY [addmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:26:20,592 p=26724 u=kinma13 |  PLAY [addmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:26:20,597 p=26724 u=kinma13 |  PLAY [addmembers] ****************************************************************************************************************************************************************************************************************************
+2018-03-02 12:26:20,602 p=26724 u=kinma13 |  TASK [f5-pool-member-add : Add pool member] **************************************************************************************************************************************************************************************************
+2018-03-02 12:26:20,603 p=26724 u=kinma13 |  Friday 02 March 2018  12:26:20 -0500 (0:00:00.097)       0:00:00.097 ********** 
+2018-03-02 12:26:22,879 p=26724 u=kinma13 |  fatal: [10.55.33.213 -> localhost]: FAILED! => {"changed": false, "failed": true, "msg": "pool /Common/cppm2037_prod does not exist"}
+2018-03-02 12:26:22,883 p=26724 u=kinma13 |  	to retry, use: --limit @/usr/share/ansible/f5/site.retry
+
+2018-03-02 12:26:22,883 p=26724 u=kinma13 |  PLAY RECAP ***********************************************************************************************************************************************************************************************************************************
+2018-03-02 12:26:22,883 p=26724 u=kinma13 |  10.55.33.213               : ok=0    changed=0    unreachable=0    failed=1   
+2018-03-02 12:26:22,883 p=26724 u=kinma13 |  Friday 02 March 2018  12:26:22 -0500 (0:00:02.280)       0:00:02.377 ********** 
+2018-03-02 12:26:22,883 p=26724 u=kinma13 |  =============================================================================== 
+2018-03-02 12:26:22,883 p=26724 u=kinma13 |  f5-pool-member-add : Add pool member ------------------------------------ 2.28s
